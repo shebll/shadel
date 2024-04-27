@@ -51,28 +51,30 @@ function Aboutus() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols- gap-6">
                 <m.div variants={images} className=" p-6 rounded shadow">
                   <h2 className="text-2xl font-bold mb-4 ">ABOUT SHADEL:</h2>
-                  <b>
-                    {" "}
-                    With a rich heritage dating back to 2001, SHADEL officially
-                    established its presence in 2016.
-                  </b>{" "}
-                  <p>
-                    Founded by visionary individuals passionate about
-                    exceptional sheet metal fabrication, we've grown into a
-                    leader in the Middle East. <br /> <b> SHADEL</b> specialize
-                    in crafting top-notch stainless steel products at
-                    competitive prices. Our commitment to quality is evident in
-                    our state-of-the-art, custom-designed machines that allow us
-                    to deliver tailored solutions efficiently and reliably. By
-                    embracing advanced technologies like laser cutting and
-                    welding, SHADEL guarantee unparalleled results. <br /> At{" "}
-                    <b> SHADEL</b>, continuous improvement is paramount. We
-                    implement Lean manufacturing principles, Kaizen, and Six
-                    Sigma methodologies to stay ahead of the curve. Our
-                    dedication to innovation, quality, and customer satisfaction
-                    fuels our aspiration to redefine the standards of sheet
-                    metal fabrication.
-                  </p>
+                  <div className="text-black">
+                    <b>
+                      {" "}
+                      With a rich heritage dating back to 2001, SHADEL
+                      officially established its presence in 2016.
+                    </b>{" "}
+                    <p>
+                      Founded by visionary individuals passionate about
+                      exceptional sheet metal fabrication, we've grown into a
+                      leader in the Middle East. <br /> <b> SHADEL</b>{" "}
+                      specialize in crafting top-notch stainless steel products
+                      at competitive prices. Our commitment to quality is
+                      evident in our state-of-the-art, custom-designed machines
+                      that allow us to deliver tailored solutions efficiently
+                      and reliably. By embracing advanced technologies like
+                      laser cutting and welding, SHADEL guarantee unparalleled
+                      results. <br /> At <b> SHADEL</b>, continuous improvement
+                      is paramount. We implement Lean manufacturing principles,
+                      Kaizen, and Six Sigma methodologies to stay ahead of the
+                      curve. Our dedication to innovation, quality, and customer
+                      satisfaction fuels our aspiration to redefine the
+                      standards of sheet metal fabrication.
+                    </p>
+                  </div>
                 </m.div>
                 <div className=" p-6 rounded shadow">
                   <m.iframe
@@ -102,7 +104,7 @@ function Aboutus() {
                   >
                     CORE VALUES:
                   </h2>
-                  <p className="text-gray-700 font-bold text-justify justify-start sm:justify-end">
+                  <p className="text-black text-justify justify-start sm:justify-end">
                     At <b style={{ color: "black" }}>SHADEL</b>, our core values
                     define who we are and how we operate. We prioritize
                     understanding and exceeding our clients' needs, building
@@ -125,7 +127,7 @@ function Aboutus() {
                 </m.div>
                 <m.div variants={images} className=" p-6 rounded shadow">
                   <h2 className="text-2xl font-bold mb-4">Mission</h2>
-                  <p className="text-gray-700 font-bold text-justify justify-start sm:justify-end">
+                  <p className="text-black text-justify justify-start sm:justify-end">
                     <b style={{ color: "black" }}> SHADEL’s VISION:</b>
                     <br />
                     <b> Industry benchmark:</b> Shadel aspires to be the
