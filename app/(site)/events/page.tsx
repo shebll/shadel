@@ -10,6 +10,7 @@ import "swiper/css/navigation"
 
 // import required modules
 import { Navigation } from "swiper/modules"
+import Image from "next/image"
 const variants = {
   hidden: { opacity: 0 },
   show: {
@@ -39,12 +40,14 @@ const images = {
 export default function Aboutpage() {
   return (
     <h1 className="">
-      <h2 className="section-heading text-gray-300 sm:text-white z-20 pt-24 absolute text-center justify-center ml-[40%] ">
+      <h2 className="section-heading text-gray-300 sm:text-white z-20 pt-28 absolute text-center justify-center ml-[40%] ">
         Events
       </h2>
 
-      <img
-        src="/bg/10.png"
+      <Image
+        width={840}
+        height={697}
+        src="https://drive.google.com/uc?export=view&id=1bcMtpzcDdRqFNBzUTXiJ6NRhPqBy0bGL"
         alt="bg"
         style={{
           height: "50vh",
@@ -57,25 +60,14 @@ export default function Aboutpage() {
           right: "0",
         }}
       />
-      <div className="eventsbg">
-        <motion.video
-          autoPlay
-          loop
-          muted
-          className="rounded-lg   w-[57%] m-auto  sm:pt-[13%] pt-[60%]  "
-          variants={images}
-        >
-          <source src="/video-3.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </motion.video>
-      </div>
+      <div className="eventsbg"></div>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-          <div className="  w-full h-full">
+          <div className="  w-full h-full pt-[60%] sm:pt-[18%]">
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">
               <div>
-                <div className="flex items-center " style={{ gap: "12%" }}>
-                  <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <div className="flex items-center " style={{ gap: "5%" }}>
+                  <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
                     MACTECH 2023
                   </h2>
                   <img
@@ -84,7 +76,7 @@ export default function Aboutpage() {
                     width={200}
                   ></img>
                 </div>
-                <p className="mt-4 text-gray-500">
+                <p className="mt-4 text-black">
                   Embark on a journey into the artistry of metal manipulation at
                   Shadel Industry's state-of-the-art facility, nestled within
                   the renowned Cairo International Convention Exhibition.
@@ -98,8 +90,8 @@ export default function Aboutpage() {
 
                 <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                   <div className="border-t border-gray-200 pt-4">
-                    <dt className="font-medium text-gray-900">Highlights:</dt>
-                    <dd className="mt-2 text-sm text-gray-500">
+                    <dt className="font-medium text-black">Highlights:</dt>
+                    <dd className="mt-2 text-sm text-black">
                       <li>
                         Innovative Designs: Explore the latest trends and
                         technologies in shading.
@@ -117,8 +109,8 @@ export default function Aboutpage() {
                   </div>
 
                   <div className="border-t border-gray-200 pt-4">
-                    <dt className="font-medium text-gray-900">Visit Us:</dt>
-                    <dd className="mt-2 text-sm text-gray-500">
+                    <dt className="font-medium text-black">Visit Us:</dt>
+                    <dd className="mt-2 text-sm text-black">
                       Join us at MACTECH to experience the beauty and
                       functionality of our shading solutions. Our staff will be
                       on hand to guide you through our products.
@@ -181,11 +173,11 @@ export default function Aboutpage() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="  w-full h-full">
+          <div className="  w-full h-full pt-[60%] sm:pt-[18%]">
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">
               <div>
-                <div className="flex items-center " style={{ gap: "12%" }}>
-                  <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+                <div className="flex items-center " style={{ gap: "5%" }}>
+                  <h2 className="text-3xl font-bold tracking-tight text-black sm:text-4xl">
                     MACTECH 2022
                   </h2>
                   <img
@@ -194,7 +186,7 @@ export default function Aboutpage() {
                     width={200}
                   ></img>
                 </div>
-                <p className="mt-4 text-gray-500">
+                <p className="mt-4 text-black">
                   Embark on a journey into the artistry of metal manipulation at
                   Shadel Industry's showcase within the esteemed Cairo
                   International Convention Exhibition of 2022. Explore
@@ -207,8 +199,8 @@ export default function Aboutpage() {
 
                 <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                   <div className="border-t border-gray-200 pt-4">
-                    <dt className="font-medium text-gray-900">Highlights:</dt>
-                    <dd className="mt-2 text-sm text-gray-500">
+                    <dt className="font-medium text-black">Highlights:</dt>
+                    <dd className="mt-2 text-sm text-black">
                       <li>
                         Innovative Designs: Explore the latest trends and
                         technologies in shading.
@@ -226,8 +218,8 @@ export default function Aboutpage() {
                   </div>
 
                   <div className="border-t border-gray-200 pt-4">
-                    <dt className="font-medium text-gray-900">Visit Us:</dt>
-                    <dd className="mt-2 text-sm text-gray-500">
+                    <dt className="font-medium text-black">Visit Us:</dt>
+                    <dd className="mt-2 text-sm text-black">
                       Join us at MACTECH to experience the beauty and
                       functionality of our shading solutions. Our staff will be
                       on hand to guide you through our products.
@@ -255,36 +247,32 @@ export default function Aboutpage() {
                 />
                 <motion.img
                   src="/expo/3.jpg"
-                  alt="Side of walnut card tray with card groove and recessed card area."
+                  alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
                   className="rounded-lg bg-gray-100 "
                   variants={images}
                 />
                 <motion.img
                   src="/expo/4.jpg"
-                  alt="Walnut card tray filled with cards and card angled in dedicated groove."
+                  alt="Top down view of walnut card tray with embedded magnets and card groove."
                   className="rounded-lg bg-gray-100"
                   variants={images}
                 />
                 <motion.video
+                  src="/expo/v1.mp4"
+                  className="rounded-lg bg-gray-100 "
+                  variants={images}
                   autoPlay
                   loop
                   muted
-                  className="rounded-lg bg-gray-100 "
-                  variants={images}
-                >
-                  <source src="/expo/v1.mov" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </motion.video>
+                />
                 <motion.video
+                  src="/expo/v2.mp4"
+                  className="rounded-lg bg-gray-100"
+                  variants={images}
                   autoPlay
                   loop
                   muted
-                  className="rounded-lg bg-gray-100 "
-                  variants={images}
-                >
-                  <source src="/expo/v2.MOV" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </motion.video>
+                />
               </motion.div>
             </div>
           </div>

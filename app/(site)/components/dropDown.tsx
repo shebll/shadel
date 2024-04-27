@@ -52,31 +52,31 @@ function DropDown() {
         <ul className="flex items-center flex-col justify-center gap-3">
           <li
             onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-white "
+            className="font-semibold text-2xl hover:text-red-600 text-gray-400 "
           >
             <Link href="/products">Products</Link>
           </li>
           <li
             onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-white "
+            className="font-semibold text-2xl hover:text-red-600 text-gray-400 "
           >
             <Link href="/machine">Machines</Link>
           </li>
           <li
             onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-white"
+            className="font-semibold text-2xl hover:text-red-600 text-gray-400"
           >
             <Link href="/events">Events</Link>
           </li>
           <li
             onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-white"
+            className="font-semibold text-2xl hover:text-red-600 text-gray-400"
           >
             <Link href="/projects">Projects</Link>
           </li>
           <li
             onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-white"
+            className="font-semibold text-2xl hover:text-red-600 text-gray-400"
           >
             <Link href="/#footer">Contact</Link>
           </li>

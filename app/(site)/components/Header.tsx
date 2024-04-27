@@ -17,7 +17,7 @@ function Header() {
           >
             <Link href="/">
               <Image
-                src="/wady_logos.png"
+                src="https://drive.google.com/uc?export=view&id=1RZdwU_UFadMTXOCIaiwbdSwLmG2tUkpz"
                 alt="logo image"
                 loading="lazy"
                 width={450}

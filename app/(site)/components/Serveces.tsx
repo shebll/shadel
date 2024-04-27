@@ -39,17 +39,6 @@ function Services() {
 
   return (
     <div className="serv">
-      {/* <img
-        src="/bg/serv.png"
-        alt="bg"
-        style={{
-          height: "50vh",
-          objectFit: "cover",
-          width: "100%",
-          position: "relative",
-          zIndex: "-1",
-        }}
-      /> */}
       <section
         id="services"
         className="container mx-auto min-h-screen pt-[70px] "

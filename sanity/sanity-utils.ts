@@ -1,6 +1,5 @@
-import { createClient, groq } from "next-sanity"
-import ProductMachineType from "@/types/Product"
-import { cache } from "react"
+import { createClient, groq } from "next-sanity";
+import ProductMachineType from "@/types/Product";
 
 /* fetching data using groq all projects */
 async function getProducts(type: string | null): Promise<ProductMachineType[]> {
@@ -8,10 +7,10 @@ async function getProducts(type: string | null): Promise<ProductMachineType[]> {
     projectId: "42h6u44a",
     apiVersion: "2023-07-19",
     dataset: "production",
-  })
+  });
 
-  let query
-  let params = {}
+  let query;
+  let params = {};
 
   if (type) {
     query = groq`*[_type=="Product" && type == $type] {
@@ -25,8 +24,8 @@ async function getProducts(type: string | null): Promise<ProductMachineType[]> {
       features,
       category,
       description
-    }`
-    params = { type }
+    }`;
+    params = { type };
   } else {
     query = groq`*[_type=="Product"] {
       _id,
@@ -39,10 +38,10 @@ async function getProducts(type: string | null): Promise<ProductMachineType[]> {
       features,
       category,
       description
-    }`
+    }`;
   }
 
-  return client.fetch(query, params)
+  return client.fetch(query, params);
 }
 
 /* fetching data using groq specific projects */
@@ -66,7 +65,7 @@ async function getProduct(id: string): Promise<ProductMachineType> {
       category,
     }`,
     { id }
-  )
+  );
 }
 async function getMachines(): Promise<ProductMachineType[]> {
   return createClient({
@@ -87,7 +86,7 @@ async function getMachines(): Promise<ProductMachineType[]> {
       category,
       description,
     }`
-  )
+  );
 }
 
 /* fetching data using groq specific projects */
@@ -111,11 +110,11 @@ async function getMachine(id: string): Promise<ProductMachineType> {
       description,
       category,
     }`,
-    { id, caches: "no-store" }
-  )
+    { id }
+  );
 }
 async function getByName(name: string): Promise<ProductMachineType[]> {
-  const lowercasedName = name.toLowerCase()
+  const lowercasedName = name.toLowerCase();
 
   return createClient({
     projectId: "42h6u44a",
@@ -136,6 +135,6 @@ async function getByName(name: string): Promise<ProductMachineType[]> {
       category,
     }`,
     { lowercasedName }
-  )
+  );
 }
-export { getProducts, getProduct, getMachines, getMachine, getByName }
+export { getProducts, getProduct, getMachines, getMachine, getByName };

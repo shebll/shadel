@@ -1,13 +1,16 @@
 import React from "react"
 import { getMachines } from "@/sanity/sanity-utils"
 import Products from "../components/ProductsMachinesPage"
+import Image from "next/image"
 export const dynamic = "force-dynamic"
 async function page() {
   const products = await getMachines()
   return (
     <div>
-      <img
-        src="/bg/8.png"
+      <Image
+        width={1080}
+        height={546}
+        src="https://drive.google.com/uc?export=view&id=1iyxzKQmayyP6gcocVJAwhDbhCCOULEge"
         alt="bg"
         style={{
           height: "50vh",

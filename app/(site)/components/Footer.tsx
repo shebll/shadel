@@ -30,7 +30,13 @@ function Footer() {
                 </b>
               </div>
 
-              <img src="/shs.png" className="w-28 h-30" alt="" />
+              <Image
+                width={390}
+                height={180}
+                src="https://drive.google.com/uc?export=view&id=16L3BqT-cHCkbQc-CrNZ855tOk9bLj_p_"
+                className="w-28 h-30"
+                alt=""
+              />
             </div>
           </div>
           <div className="flex gap-4 flex-col">

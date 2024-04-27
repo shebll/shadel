@@ -1,8 +1,8 @@
-"use client";
-import Image from "next/image";
-import React from "react";
-import { LazyMotion, domAnimation, m } from "framer-motion";
-import { motion } from "framer-motion";
+"use client"
+import Image from "next/image"
+import React from "react"
+import { LazyMotion, domAnimation, m } from "framer-motion"
+import { motion } from "framer-motion"
 
 function Aboutus() {
   const variants = {
@@ -13,7 +13,7 @@ function Aboutus() {
         staggerChildren: 0.5,
       },
     },
-  };
+  }
 
   const images = {
     hidden: {
@@ -29,7 +29,7 @@ function Aboutus() {
         stiffness: 50,
       },
     },
-  };
+  }
 
   return (
     <div className="vabout">
@@ -37,20 +37,20 @@ function Aboutus() {
         <LazyMotion features={domAnimation}>
           <motion.div variants={variants} initial="hidden" whileInView="show">
             <m.div
-              className="container px-6 py-20 mx-auto "
+              className=" container mx-auto px-6 py-20"
               style={{ color: "black" }}
             >
               <m.div
                 initial={{ y: -150 }}
                 whileInView={{ y: 0 }}
                 transition={{ duration: 1, type: "spring", stiffness: 50 }}
-                className="flex flex-col pb-10 row "
+                className="row flex flex-col pb-10 "
               >
-                <h2 className="text-gray-300 section-heading">About Us</h2>
+                <h2 className="section-heading text-gray-300">About Us</h2>
               </m.div>
-              <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-">
-                <m.div variants={images} className="p-6 rounded shadow ">
-                  <h2 className="mb-4 text-2xl font-bold ">ABOUT SHADEL:</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols- gap-6">
+                <m.div variants={images} className=" p-6 rounded shadow">
+                  <h2 className="text-2xl font-bold mb-4 ">ABOUT SHADEL:</h2>
                   <b>
                     {" "}
                     With a rich heritage dating back to 2001, SHADEL officially
@@ -74,35 +74,35 @@ function Aboutus() {
                     metal fabrication.
                   </p>
                 </m.div>
-                <div className="p-6 rounded shadow ">
-                  <m.video
-                    src="/projects/v1.mp4"
-                    style={{ borderRadius: "10px" }}
-                    variants={images}
-                    autoPlay
-                    loop
-                    muted
+                <div className=" p-6 rounded shadow">
+                  <m.iframe
+                    style={{ maxWidth: "100%" }}
+                    width="560"
+                    height="315"
+                    src="https://drive.google.com/file/d/1_3oK9w9yhd9ul6jaFk8Qq3RgXQceYI5y/preview"
+                    allowFullScreen
+                    className=""
                   />
                 </div>
 
-                <div className="p-6 rounded shadow ">
-                  <m.video
-                    src="/projects/v2.mp4"
-                    style={{ borderRadius: "10px" }}
-                    variants={images}
-                    autoPlay
-                    loop
-                    muted
+                <div className=" p-6 rounded shadow">
+                  <m.iframe
+                    style={{ maxWidth: "100%" }}
+                    width="560"
+                    height="315"
+                    src="https://drive.google.com/file/d/1R-y2BaeKhbjMQConf98-_riCOhBY3kR8/preview"
+                    allowFullScreen
+                    className=""
                   />
                 </div>
-                <m.div variants={images} className="p-6 rounded shadow ">
+                <m.div variants={images} className=" p-6 rounded shadow  ">
                   <h2
-                    className="mb-4 text-2xl font-bold"
+                    className="text-2xl font-bold mb-4"
                     style={{ color: "black" }}
                   >
                     CORE VALUES:
                   </h2>
-                  <p className="justify-start font-bold text-justify text-gray-700 sm:justify-end">
+                  <p className="text-gray-700 font-bold text-justify justify-start sm:justify-end">
                     At <b style={{ color: "black" }}>SHADEL</b>, our core values
                     define who we are and how we operate. We prioritize
                     understanding and exceeding our clients' needs, building
@@ -123,9 +123,9 @@ function Aboutus() {
                     to contribute their best.
                   </p>
                 </m.div>
-                <m.div variants={images} className="p-6 rounded shadow ">
-                  <h2 className="mb-4 text-2xl font-bold">Mission</h2>
-                  <p className="justify-start font-bold text-justify text-gray-700 sm:justify-end">
+                <m.div variants={images} className=" p-6 rounded shadow">
+                  <h2 className="text-2xl font-bold mb-4">Mission</h2>
+                  <p className="text-gray-700 font-bold text-justify justify-start sm:justify-end">
                     <b style={{ color: "black" }}> SHADEL’s VISION:</b>
                     <br />
                     <b> Industry benchmark:</b> Shadel aspires to be the
@@ -151,14 +151,14 @@ function Aboutus() {
                     driven by a relentless pursuit of customer satisfaction
                   </p>
                 </m.div>
-                <div className="p-6 rounded shadow ">
-                  <m.video
-                    src="/projects/v3.mp4"
-                    style={{ borderRadius: "10px" }}
-                    variants={images}
-                    autoPlay
-                    loop
-                    muted
+                <div className=" p-6 rounded shadow">
+                  <m.iframe
+                    style={{ maxWidth: "100%" }}
+                    width="560"
+                    height="315"
+                    src="https://drive.google.com/file/d/1cxHcjDXvZ_MDA520WkCErWX2SkgFRPqr/preview"
+                    allowFullScreen
+                    className=""
                   />
                 </div>
               </div>
@@ -167,7 +167,7 @@ function Aboutus() {
         </LazyMotion>{" "}
       </section>
     </div>
-  );
+  )
 }
 
-export default Aboutus;
+export default Aboutus

@@ -10,7 +10,7 @@ type Props = {
 const Images: React.FC<Props> = ({ product }) => {
   return (
     <div className="grid w-full grid-cols-3 gap-2 mt-8">
-      {product?.secImages &&
+      {product.secImages &&
         product.secImages.map((image, index) => (
           <div
             key={index}

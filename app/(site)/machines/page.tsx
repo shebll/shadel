@@ -8,12 +8,14 @@ function AllMachines() {
   return (
     <h2 id="allmachines">
       <div className="relative">
-        <img
+        <Image
+          width={1080}
+          height={364}
           src={"/bg/serv.jpg"}
           alt="pg"
           className=" pt-10"
           style={{ width: "100%", height: "100%" }}
-        ></img>
+        ></Image>
         <div
           className=" left-[40%] sm:bottom-48 bottom-10  "
           style={{

@@ -26,8 +26,10 @@ function AllProducts() {
 
   return (
     <div className="prooo  " id="leftxx">
-      <img
-        src="/bg/5.png"
+      <Image
+        width={1080}
+        height={365}
+        src="https://drive.google.com/uc?export=view&id=1eHo4jATgYA3ArSab9QW_bFXCk6FLQ2cE"
         alt="bg"
         style={{
           height: "50vh",
@@ -66,7 +68,10 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px] shadow-sm">
                 <Image
-                  src={"/utijpg.jpg"}
+                  // https://drive.google.com/file/d/1KQ2RFIzKEF8svvTwZfO8n3qv5vsgpDa8/view?usp=drive_link
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1KQ2RFIzKEF8svvTwZfO8n3qv5vsgpDa8"
+                  }
                   alt="image"
                   width={900}
                   height={150}
@@ -101,7 +106,9 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  src={"/hotel1.jpeg"}
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1LizFy3GfqvCpOtjzCbKvW0c7cwiAqiEs"
+                  }
                   alt="image"
                   width={900}
                   height={150}
@@ -136,7 +143,9 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  src={"/medical.jpg"}
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1mqFwKIFyLe3SJMz2wVL9KLjEheDzrO5m"
+                  }
                   alt="image"
                   width={900}
                   height={150}
@@ -173,7 +182,9 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  src={"/hotel.jpeg"}
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1YliqN7_Cn0igXzT5NOyBGsgWow-DLz3x"
+                  }
                   alt="image"
                   width={900}
                   height={150}
@@ -208,7 +219,9 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  src={"/hotel2.jpeg"}
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1hx35R8mzAjKXa5i8PK40wajmE0yNlpke"
+                  }
                   alt="image"
                   width={900}
                   height={150}
@@ -244,7 +257,9 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  src={"/hotel3.jpeg"}
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1dDYo18FiA_u1jVaM506vVPfauhCr30_V"
+                  }
                   alt="image"
                   width={900}
                   height={150}
@@ -281,7 +296,9 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  src={"/fire.jpeg"}
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1kxk4MGeV0N5ouo8tKu2aAcl4JDkPtdJi"
+                  }
                   alt="image"
                   width={900}
                   height={150}
@@ -316,7 +333,9 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  src={"/burn.jpg"}
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1jFwwM3xnDrwdjuqNtM2Q7S1aTPxG-br_"
+                  }
                   alt="image"
                   width={900}
                   height={150}
@@ -351,7 +370,9 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  src={"/coffe.jpg"}
+                  src={
+                    "https://drive.google.com/uc?export=view&id=15KIs10ZoW2MALDykkA5GsJR_jNeOXG0k"
+                  }
                   alt="image"
                   width={900}
                   height={150}

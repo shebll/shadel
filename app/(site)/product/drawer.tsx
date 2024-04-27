@@ -7,6 +7,7 @@ import {
   IconButton,
 } from "@material-tailwind/react"
 import Link from "next/link"
+import Image from "next/image"
 export function DrawerPlacement() {
   const [openRight, setOpenRight] = useState(false)
 
@@ -121,7 +122,12 @@ export function DrawerPlacement() {
           </div>
         </div>
         <div className="flex gap-2 pt-[45%]">
-          <img src="/shs.png" alt="s" />
+          <Image
+            width={350}
+            height={30}
+            src="https://drive.google.com/uc?export=view&id=16L3BqT-cHCkbQc-CrNZ855tOk9bLj_p_"
+            alt="s"
+          />
         </div>
       </Drawer>
     </React.Fragment>

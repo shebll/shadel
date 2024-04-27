@@ -5,17 +5,6 @@ import { useState, useEffect, useContext } from "react"
 import Link from "next/link"
 
 function Hero() {
-  //   const imgarray = ["/finalb.jpeg", "/imac-2.jpg", "/imac-3.jpg"]
-  //   const [animation, setAnimation] = useState("")
-
-  //   useEffect(() => {
-  //     const intervalId = setInterval(() => {
-  //       let radnum = Math.floor(Math.random() * imgarray.length)
-  //       setAnimation(imgarray[radnum])
-  //     }, 5000)
-  //style={{ backgroundImage: `url(${animation})`
-  //     return () => clearInterval(intervalId)
-  //   }, [])
   return (
     <LazyMotion features={domAnimation}>
       <div className="hero ">
@@ -33,7 +22,7 @@ function Hero() {
               className="shh w-full  justify-center gap-20   items-center"
             >
               <Image
-                src="/stand.png"
+                src="https://drive.google.com/uc?export=view&id=1E9n67LzNYQSWsMXSFpRXjhch4u_sRx9R"
                 width={600}
                 style={{
                   paddingTop: "15%",
@@ -76,7 +65,7 @@ function Hero() {
             </Link> */}
             <Image
               className="hidden 2xl:block "
-              src="/brand-1.png"
+              src="https://drive.google.com/uc?export=view&id=1JG2BHRs9A39_JZWQg61IgiRkboAbXCzO"
               width={600}
               height={400}
               style={{ position: "absolute", right: 300, top: "25%" }}

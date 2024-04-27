@@ -5,6 +5,7 @@ import Link from "next/link";
 import Images from "../../components/Images";
 import ProductMachinePage from "../../components/ProductMachinePage";
 
+export const dynamic = "force-dynamic";
 type props = {
   params: { id: string };
 };
