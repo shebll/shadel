@@ -22,7 +22,7 @@ function DropDown() {
       <nav
         className={`${
           state == true ? "block" : "hidden"
-        } inline-flex lg:hidden flex-col items-center justify-between absolute top-0 left-0 gap-10 bg-gray-300  p-10 w-full z-[1] pt-[60px] `}
+        } inline-flex lg:hidden flex-col items-center justify-between absolute top-0 left-0 gap-10 bg-white p-10 w-full z-[1] pt-[60px] `}
       >
         <Image
           width={400}
