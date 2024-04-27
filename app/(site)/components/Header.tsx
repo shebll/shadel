@@ -1,19 +1,19 @@
-"use client"
-import Link from "next/link"
-import Image from "next/image"
-import DropDown from "./dropDown"
-import { LazyMotion, domAnimation, m } from "framer-motion"
-import Search from "./Search"
+"use client";
+import Link from "next/link";
+import Image from "next/image";
+import DropDown from "./dropDown";
+import { LazyMotion, domAnimation, m } from "framer-motion";
+import Search from "./Search";
 function Header() {
   return (
     <LazyMotion features={domAnimation}>
       <nav>
-        <div className="fixed shadow-lg top-0 w-full bg-white 0 z-50">
+        <div className="fixed top-0 z-50 w-full bg-white shadow-lg 0">
           <m.header
             initial={{ y: -250 }}
             animate={{ y: 0 }}
             transition={{ duration: 1, type: "spring", stiffness: 50 }}
-            className="container flex justify-between items-center mx-auto gap-20 sm:gap-4 py-4  "
+            className="container flex items-center justify-between gap-20 py-4 mx-auto sm:gap-4 "
           >
             <Link href="/">
               <Image
@@ -28,17 +28,23 @@ function Header() {
             <div className="hidden lg:block">
               <Search />
             </div>
-            <nav className="hidden lg:inline-flex -mr-40">
-              <ul className="flex gap-6 items-center">
+            <nav className="hidden -mr-40 lg:inline-flex">
+              <ul className="flex items-center gap-6">
                 <div className="relative">
-                  <li className="font-semibold text-2xl text-black flex items-center group hover:text-red-600">
+                  <li className="flex items-center text-2xl font-semibold text-black group hover:text-red-600">
                     <Link href="/products" className="">
                       Products
                     </Link>{" "}
-                    <img src="Rr.png" alt="" className=" w-10 h-10 " />
-                    <div className="absolute w-60 top-full left-0 mb-2 bg-white shadow-lg rounded-lg hidden group-hover:block -z-10 group-hover:z-20  transition-opacity duration-300">
-                      <ul className=" ">
-                        <li className="hover:bg-gray-100 hover:pl-2 duration-300 text-black hover:text-red-600 text-lg">
+                    <Image
+                      width={40}
+                      height={40}
+                      src="/Rr.png"
+                      alt="drop down menu"
+                      className="w-10 h-10 "
+                    />
+                    <div className="absolute left-0 hidden mb-2 transition-opacity duration-300 bg-white rounded-lg shadow-lg w-60 top-full group-hover:block -z-10 group-hover:z-20">
+                      <ul className="">
+                        <li className="text-lg text-black duration-300 hover:bg-gray-100 hover:pl-2 hover:text-red-600">
                           <Link
                             href={"/product?type=hot"}
                             className="block px-4 py-2 "
@@ -46,7 +52,7 @@ function Header() {
                             Central Kitchen
                           </Link>
                         </li>
-                        <li className="text-black hover:pl-2 duration-300 hover:bg-gray-100 hover:text-red-600 text-lg">
+                        <li className="text-lg text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=kitchen"}
                             className="block px-4 py-2"
@@ -54,7 +60,7 @@ function Header() {
                             Hotel Equipment
                           </Link>
                         </li>
-                        <li className="text-black hover:pl-2 duration-300 hover:bg-gray-100 hover:text-red-600 text-lg">
+                        <li className="text-lg text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=cold"}
                             className="block px-4 py-2"
@@ -62,7 +68,7 @@ function Header() {
                             Refrigeration
                           </Link>
                         </li>
-                        <li className="text-black hover:pl-2 duration-100 hover:bg-gray-100 hover:text-red-600 text-lg">
+                        <li className="text-lg text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=laundry"}
                             className="block px-4 py-2"
@@ -70,7 +76,7 @@ function Header() {
                             Laundry
                           </Link>
                         </li>{" "}
-                        <li className="text-black hover:pl-2 duration-100 hover:bg-gray-100 hover:text-red-600 text-lg">
+                        <li className="text-lg text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=others"}
                             className="block px-4 py-2"
@@ -78,7 +84,7 @@ function Header() {
                             Medical{" "}
                           </Link>
                         </li>
-                        <li className="text-black hover:pl-2 duration-100 hover:bg-gray-100 hover:text-red-600 text-lg">
+                        <li className="text-lg text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=castle"}
                             className="block px-4 py-2"
@@ -86,7 +92,7 @@ function Header() {
                             Home Appliances{" "}
                           </Link>
                         </li>
-                        <li className="text-black hover:pl-2 duration-100  hover:bg-gray-100 hover:text-red-600 text-lg">
+                        <li className="text-lg text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=boiler"}
                             className="block px-4 py-2"
@@ -98,22 +104,22 @@ function Header() {
                     </div>
                   </li>
                 </div>
-                {/* <li className="font-semibold text-2xl hover:text-red-600 text-black ">
+                {/* <li className="text-2xl font-semibold text-black hover:text-red-600 ">
                   <Link href="/certifcate">certifcate </Link>
                 </li> */}
-                <li className="font-semibold text-2xl hover:text-red-600 text-black ">
+                <li className="text-2xl font-semibold text-black hover:text-red-600 ">
                   <Link href="/machine">Machines </Link>
                 </li>
-                <li className="font-semibold text-2xl hover:text-red-600 text-black">
+                <li className="text-2xl font-semibold text-black hover:text-red-600">
                   <Link href="/projects">Projects</Link>
                 </li>
-                <li className="font-semibold text-2xl hover:text-red-600 text-black">
+                <li className="text-2xl font-semibold text-black hover:text-red-600">
                   <Link href="/events">Events</Link>
                 </li>
-                {/* <li className="font-semibold text-2xl hover:text-red-600 text-black">
+                {/* <li className="text-2xl font-semibold text-black hover:text-red-600">
                 <Link href="/#services">services</Link>
               </li> */}
-                <li className="font-semibold text-2xl hover:text-red-600 text-black">
+                <li className="text-2xl font-semibold text-black hover:text-red-600">
                   <Link href="/#footer">Contact</Link>
                 </li>
               </ul>
@@ -123,7 +129,7 @@ function Header() {
         </div>
       </nav>
     </LazyMotion>
-  )
+  );
 }
 
-export default Header
+export default Header;

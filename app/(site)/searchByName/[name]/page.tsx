@@ -1,22 +1,22 @@
-import { getByName } from "@/sanity/sanity-utils"
-import React from "react"
-import Products from "../../components/ProductsMachinesPage"
-import Image from "next/image"
+import { getByName } from "@/sanity/sanity-utils";
+import React from "react";
+import Products from "../../components/ProductsMachinesPage";
+import Image from "next/image";
 type props = {
-  params: { name: string }
-}
+  params: { name: string };
+};
 async function page({ params }: props) {
-  const name = decodeURIComponent(params.name)
-  console.log(name)
-  const products = await getByName(name)
-  console.log("products", products)
+  const name = decodeURIComponent(params.name);
+  console.log(name);
+  const products = await getByName(name);
+  console.log("products", products);
 
   return (
     <div style={{ paddingTop: "50px" }}>
       <Image
         width={400}
         height={200}
-        src="/bg/8.png"
+        src="https://drive.google.com/uc?export=view&id=1iyxzKQmayyP6gcocVJAwhDbhCCOULEge"
         alt="bg"
         style={{
           height: "50vh",
@@ -30,7 +30,7 @@ async function page({ params }: props) {
       />
       <Products items={products} name="products" />
     </div>
-  )
+  );
 }
 
-export default page
+export default page;
