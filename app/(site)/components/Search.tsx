@@ -1,35 +1,35 @@
-"use client"
+"use client";
 
-import { useRouter } from "next/navigation"
+import { useRouter } from "next/navigation";
 import {
   ChangeEvent,
   Dispatch,
   FormEvent,
   SetStateAction,
   useState,
-} from "react"
+} from "react";
 type props = {
-  setState?: Dispatch<SetStateAction<boolean>>
-}
+  setState?: Dispatch<SetStateAction<boolean>>;
+};
 function Search({ setState }: props) {
-  const router = useRouter()
-  const [searchValue, setSearchValue] = useState("")
+  const router = useRouter();
+  const [searchValue, setSearchValue] = useState("");
 
   function submitHandler(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault()
-    setSearchValue("")
-    if (setState) setState!(false)
+    e.preventDefault();
+    setSearchValue("");
+    if (setState) setState!(false);
 
-    router.push(`/searchByName/${searchValue}`)
+    router.push(`/searchByName/${searchValue}`);
   }
   function changeHandler(e: ChangeEvent<HTMLInputElement>) {
-    setSearchValue(e.target.value)
+    setSearchValue(e.target.value);
   }
   return (
     <form onSubmit={submitHandler}>
-      <div className="bg-gray-200 rounded-full flex flex-row  px-12 ">
+      <div className="flex flex-row px-4 bg-gray-200 rounded-full ">
         <button type="submit" className="outline-none">
-          <span className="flex justify-center items-center">
+          <span className="flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -63,14 +63,14 @@ function Search({ setState }: props) {
         <input
           type="text"
           placeholder="search by name"
-          className=" bg-gray-200 rounded-full text-lg px-4 py-2 outline-none text-gray-700 w-[300px] "
+          className=" bg-gray-200 rounded-full text-lg px-4 py-2 outline-none text-gray-700 w-[150px] xl:w-[260px] "
           onChange={changeHandler}
           required
           value={searchValue}
         />
       </div>
     </form>
-  )
+  );
 }
 
-export default Search
+export default Search;
