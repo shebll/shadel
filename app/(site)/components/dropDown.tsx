@@ -22,9 +22,9 @@ function DropDown() {
       <nav
         className={`${
           state == true ? "block" : "hidden"
-        } inline-flex lg:hidden flex-col items-center justify-between absolute top-0 left-0 gap-10 bg-white p-10 w-full z-[1] pt-[60px] `}
+        } inline-flex lg:hidden flex-col items-center justify-between absolute top-0 left-0 gap-10 bg-black p-10 w-full z-[1] pt-[60px] `}
       >
-        <Image
+        {/* <Image
           width={400}
           height={200}
           src="/bg/5.png"
@@ -38,10 +38,10 @@ function DropDown() {
             top: "-30%",
             right: "0",
           }}
-        />
+        /> */}
         <div onClick={handleClick} className="absolute top-6 right-10 ">
           <Image
-            src={"/close.png"}
+            src={"/close2.jpg"}
             width={26}
             height={26}
             alt="menu"
@@ -49,34 +49,34 @@ function DropDown() {
           />
         </div>
         <Search setState={setState} />
-        <ul className="flex items-center flex-col justify-center gap-3">
+        <ul className="flex items-center flex-col justify-center gap-3 ">
           <li
             onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-gray-400 "
+            className="font-semibold text-2xl hover:text-red-600 text-white   "
           >
             <Link href="/products">Products</Link>
           </li>
           <li
             onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-gray-400 "
+            className="font-semibold text-2xl hover:text-red-600 text-white "
           >
             <Link href="/machine">Machines</Link>
           </li>
           <li
             onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-gray-400"
+            className="font-semibold text-2xl hover:text-red-600 text-white"
           >
             <Link href="/events">Events</Link>
           </li>
           <li
             onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-gray-400"
+            className="font-semibold text-2xl hover:text-red-600 text-white"
           >
             <Link href="/projects">Projects</Link>
           </li>
           <li
             onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-gray-400"
+            className="font-semibold text-2xl hover:text-red-600 text-white"
           >
             <Link href="/#footer">Contact</Link>
           </li>
