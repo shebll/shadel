@@ -234,25 +234,25 @@ export default function Aboutpage() {
                 className="grid grid-cols-2 grid-rows-2 gap-2 sm:gap-6 lg:gap-8"
               >
                 <motion.img
-                  src="/expo/1.jpg"
+                  src="/expo/1.JPG"
                   alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
                   className="rounded-lg bg-gray-100 "
                   variants={images}
                 />
                 <motion.img
-                  src="/expo/2.jpg"
+                  src="/expo/2.JPG"
                   alt="Top down view of walnut card tray with embedded magnets and card groove."
                   className="rounded-lg bg-gray-100"
                   variants={images}
                 />
                 <motion.img
-                  src="/expo/3.jpg"
+                  src="/expo/3.JPG"
                   alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
                   className="rounded-lg bg-gray-100 "
                   variants={images}
                 />
                 <motion.img
-                  src="/expo/4.jpg"
+                  src="/expo/4.JPG"
                   alt="Top down view of walnut card tray with embedded magnets and card groove."
                   className="rounded-lg bg-gray-100"
                   variants={images}
