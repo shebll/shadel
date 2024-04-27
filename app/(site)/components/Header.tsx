@@ -1,9 +1,9 @@
-"use client";
-import Link from "next/link";
-import Image from "next/image";
-import DropDown from "./dropDown";
-import { LazyMotion, domAnimation, m } from "framer-motion";
-import Search from "./Search";
+"use client"
+import Link from "next/link"
+import Image from "next/image"
+import DropDown from "./dropDown"
+import { LazyMotion, domAnimation, m } from "framer-motion"
+import Search from "./Search"
 function Header() {
   return (
     <LazyMotion features={domAnimation}>
@@ -44,7 +44,7 @@ function Header() {
                     />
                     <div className="absolute left-0 hidden mb-2 transition-opacity duration-300 bg-white rounded-lg shadow-lg w-60 top-full group-hover:block -z-10 group-hover:z-20">
                       <ul className="">
-                        <li className="text-lg text-black duration-300 hover:bg-gray-100 hover:pl-2 hover:text-red-600">
+                        <li className="text-sm text-black duration-300 hover:bg-gray-100 hover:pl-2 hover:text-red-600">
                           <Link
                             href={"/product?type=hot"}
                             className="block px-4 py-2 "
@@ -52,7 +52,7 @@ function Header() {
                             Central Kitchen
                           </Link>
                         </li>
-                        <li className="text-lg text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                        <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=kitchen"}
                             className="block px-4 py-2"
@@ -60,7 +60,7 @@ function Header() {
                             Hotel Equipment
                           </Link>
                         </li>
-                        <li className="text-lg text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                        <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=cold"}
                             className="block px-4 py-2"
@@ -68,7 +68,7 @@ function Header() {
                             Refrigeration
                           </Link>
                         </li>
-                        <li className="text-lg text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                        <li className="text-sm text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=laundry"}
                             className="block px-4 py-2"
@@ -76,7 +76,7 @@ function Header() {
                             Laundry
                           </Link>
                         </li>{" "}
-                        <li className="text-lg text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                        <li className="text-sm text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=others"}
                             className="block px-4 py-2"
@@ -84,7 +84,7 @@ function Header() {
                             Medical{" "}
                           </Link>
                         </li>
-                        <li className="text-lg text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                        <li className="text-sm text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=castle"}
                             className="block px-4 py-2"
@@ -92,7 +92,7 @@ function Header() {
                             Home Appliances{" "}
                           </Link>
                         </li>
-                        <li className="text-lg text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                        <li className="text-sm text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
                           <Link
                             href={"/product?type=boiler"}
                             className="block px-4 py-2"
@@ -129,7 +129,7 @@ function Header() {
         </div>
       </nav>
     </LazyMotion>
-  );
+  )
 }
 
-export default Header;
+export default Header

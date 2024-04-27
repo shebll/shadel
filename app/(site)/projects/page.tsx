@@ -107,42 +107,58 @@ export default function Projects() {
                   </div>
                 </dl>
               </div>
-              <div className="pro-img lg:pt-[50%]">
+              <div className="pro-img pt-[10%]">
                 <motion.div
                   variants={variants}
                   initial="hidden"
                   whileInView="show"
                   className="grid grid-cols-2 grid-rows-3 gap-2 sm:gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-2"
                 >
-                  <div className=" h-full w-full">
+                  <div className=" h-[80%] w-[90%] ">
                     <motion.img
                       src="/projects/p-1.jpg"
                       alt="Side of walnut card tray with card groove and recessed card area."
-                      className="rounded-lg bg-gray-800 object-cover h-full "
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full "
                       variants={images}
                     />
                   </div>
-                  <div className=" h-full w-full">
+                  <div className=" h-[80%] w-[90%]">
                     <motion.img
                       src="/projects/p-4.jpg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
-                      className="rounded-lg bg-gray-800 object-cover h-full  "
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full  "
                       variants={images}
                     />
                   </div>
-                  <div className=" h-full w-full">
+                  <div className=" h-[80%] w-[90%]">
                     <motion.img
                       src="/projects/p-2.jpg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
-                      className="rounded-lg bg-gray-800 object-cover h-full"
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full"
                       variants={images}
                     />
                   </div>
-                  <div className=" h-full w-full">
+                  <div className=" h-[80%] w-[90%]">
                     <motion.img
                       src="/projects/p-3.jpg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
-                      className="rounded-lg bg-gray-800 object-cover h-full"
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full"
+                      variants={images}
+                    />
+                  </div>
+                  <div className=" h-[80%] w-[90%]">
+                    <motion.img
+                      src="/projects/p-5.jpg"
+                      alt="Walnut card tray filled with cards and card angled in dedicated groove."
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full"
+                      variants={images}
+                    />
+                  </div>
+                  <div className=" h-[80%] w-[90%]">
+                    <motion.img
+                      src="/projects/p-6.jpg"
+                      alt="Walnut card tray filled with cards and card angled in dedicated groove."
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full"
                       variants={images}
                     />
                   </div>
@@ -232,60 +248,59 @@ export default function Projects() {
                   </div>
                 </dl>
               </div>
-              <div className="pro-img pt-[10%]">
+              <div className="pro-img ">
                 <motion.div
                   variants={variants}
                   initial="hidden"
                   whileInView="show"
                   className="grid grid-cols-2 grid-rows-3   sm:grid-cols-2 lg:grid-cols-2"
                 >
-                  <div className=" h-[90%] w-[90%]">
+                  <div className=" h-[80%] w-[80%]">
                     <motion.img
                       src="/projects/x-1.jpg"
                       alt="Side of walnut card tray with card groove and recessed card area."
-                      className="rounded-lg bg-gray-800 object-cover h-full "
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full "
                       variants={images}
                     />
                   </div>
-                  <div className=" h-[90%] w-[90%]">
+                  <div className=" h-[80%] w-[80%]">
                     <motion.img
                       src="/projects/x-2.jpg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
-                      className="rounded-lg bg-gray-800 object-cover h-full  "
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full  "
                       variants={images}
                     />
                   </div>
-                  <div className=" h-[90%] w-[90%]">
+                  <div className=" h-[80%] w-[80%]">
                     <motion.img
                       src="/projects/x-3.jpg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
-                      className="rounded-lg bg-gray-800 object-cover h-full"
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full"
                       variants={images}
                     />
                   </div>
-                  <div className=" h-[90%] w-[90%]">
+                  <div className=" h-[80%] w-[80%] ">
                     <motion.img
                       src="/projects/x-4.jpg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
-                      className="rounded-lg bg-gray-800 object-cover h-full"
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full"
                       variants={images}
                     />
                   </div>
-                  <div className=" h-[90%] w-[90%]">
+                  <div className=" h-[80%] w-[80%]">
                     <motion.img
                       src="/projects/x-6.jpeg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
-                      className="rounded-lg bg-gray-800 object-cover h-full"
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full"
                       variants={images}
                     />
                   </div>
-                  <div className=" h-[90%] w-[90%] ">
+                  <div className=" h-[80%] w-[80%] ">
                     <motion.img
                       src="/projects/x-5.jpg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
-                      className="rounded-lg bg-gray-800 object-cover h-full"
+                      className="rounded-lg bg-gray-800 sm:object-cover sm:h-full"
                       variants={images}
-                      style={{ width: "115%" }}
                     />
                   </div>
                 </motion.div>

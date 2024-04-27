@@ -1,20 +1,20 @@
-import Image from "next/image";
-import { PortableText } from "@portabletext/react";
-import Link from "next/link";
-import Images from "./Images";
-import ProductMachineType from "@/types/Product";
-import { notFound } from "next/navigation";
+import Image from "next/image"
+import { PortableText } from "@portabletext/react"
+import Link from "next/link"
+import Images from "./Images"
+import ProductMachineType from "@/types/Product"
+import { notFound } from "next/navigation"
 
 type props = {
-  product: ProductMachineType;
-};
+  product: ProductMachineType
+}
 
 function ProductMachinePage({ product }: props) {
   if (product == null) {
-    return notFound();
+    return notFound()
   } else {
     return (
-      <div className="container  mx-auto py-20 px-[10px] flex justify-between flex-col gap-20 pt-[200px]">
+      <div className="container mx-auto py-20 px-[10px] flex justify-between flex-col gap-20 pt-[200px] ">
         <Image
           width={548}
           height={369}
@@ -31,16 +31,14 @@ function ProductMachinePage({ product }: props) {
           }}
         />
         <div className="flex flex-col items-start justify-between gap-10 lg:flex-row">
-          <div className="flex gap-6 flex-col pt-[15%]">
-            <h1 className="text-4xl font-bold text-white">{product.name}</h1>
-            <p className="text-lg text-white text-gray-600">
-              {product.description}
-            </p>
+          <div className="flex gap-6 flex-col pt-[10%]">
+            <h1 className="text-4xl font-bold text-gray-200">{product.name}</h1>
+            <p className="text-lg  text-gray-600">{product.description}</p>
           </div>
           <Image
             src={product.mainImage}
             alt="image"
-            width={700}
+            width={500}
             height={500}
             className="bg-white shadow-2xl rounded-2xl "
           />
@@ -101,8 +99,8 @@ function ProductMachinePage({ product }: props) {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default ProductMachinePage;
+export default ProductMachinePage

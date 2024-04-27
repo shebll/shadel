@@ -1,8 +1,8 @@
-"use client";
-import { LazyMotion, domAnimation, m } from "framer-motion";
-import Image from "next/image";
-import { useState, useEffect, useContext } from "react";
-import Link from "next/link";
+"use client"
+import { LazyMotion, domAnimation, m } from "framer-motion"
+import Image from "next/image"
+import { useState, useEffect, useContext } from "react"
+import Link from "next/link"
 
 function Hero() {
   return (
@@ -19,21 +19,21 @@ function Hero() {
                 stiffness: 50,
                 delay: 0.7,
               }}
-              className="items-center justify-center w-full gap-20"
+              className="items-center justify-center w-[85%] gap-10"
             >
-              <div className="flex items-center justify-between pt-20 lg:pt-0">
+              <div className="flex items-center justify-between  pt-20 lg:pt-0">
                 <Image
                   src="https://drive.google.com/uc?export=view&id=1E9n67LzNYQSWsMXSFpRXjhch4u_sRx9R"
-                  width={500}
-                  height={500}
+                  width={400}
+                  height={400}
                   alt="hero section image"
                   loading="lazy"
                   className="object-contain"
                 />
                 <Image
-                  className="hidden 2xl:block "
+                  className="hidden 2xl:block pt-5 "
                   src="https://drive.google.com/uc?export=view&id=1JG2BHRs9A39_JZWQg61IgiRkboAbXCzO"
-                  width={500}
+                  width={400}
                   height={400}
                   alt="hero section image"
                   loading="lazy"
@@ -48,7 +48,7 @@ function Hero() {
                   stiffness: 50,
                   delay: 1,
                 }}
-                className="hero-text  text-gray-900 font-bold py-10  w-[100%] lg:w-[70%] justify-start sm:justify-end "
+                className="hero-text   sm:py-3 py-5 text-gray-900 font-bold w-[100%] lg:w-[70%] justify-start sm:justify-end "
               >
                 Since 2001, SHADEL has been a leader in sheet metal fabrication,{" "}
                 <br />
@@ -62,19 +62,11 @@ function Hero() {
                 </m.button>
               </Link>
             </m.div>
-            {/* <Link href="/#Aboutus">
-              <m.button
-                style={{}}
-                className="bhero mb-2 absolute bottom-[15%] right-5 bg-red-600"
-              >
-                Download Brochure
-              </m.button>
-            </Link> */}
           </div>
         </div>
       </div>
     </LazyMotion>
-  );
+  )
 }
 
-export default Hero;
+export default Hero

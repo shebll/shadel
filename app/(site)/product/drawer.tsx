@@ -16,7 +16,7 @@ export function DrawerPlacement() {
 
   return (
     <React.Fragment>
-      <div className="flex flex-wrap gap-4 right-0 top-[8.5%] fixed">
+      <div className="flex flex-wrap gap-4 right-0 top-[10%] fixed">
         {" "}
         {/* Render this div always */}
         <Button
@@ -121,7 +121,7 @@ export function DrawerPlacement() {
             </ul>
           </div>
         </div>
-        <div className="flex gap-2 pt-[45%]">
+        <div className="flex gap-2 ">
           <Image
             width={350}
             height={30}
