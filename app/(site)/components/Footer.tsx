@@ -86,7 +86,7 @@ function Footer() {
               <a href="/products" className="hover:text-red-600">
                 Products
               </a>
-              <a href="/machines" className="hover:text-red-600">
+              <a href="/products/#allmachines" className="hover:text-red-600">
                 Machines
               </a>
               <div className="flex gap-3 items-center">
