@@ -9,7 +9,7 @@ function Hero() {
     <LazyMotion features={domAnimation}>
       <div className="hero ">
         <div className="container mx-auto min-h-[76vh] px-4">
-          <div className="flex flex-col items-center gap-10 pt-50">
+          <div className="flex flex-col items-center gap-10 pt-[10%]">
             <m.div
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -32,7 +32,7 @@ function Hero() {
                 />
                 <Image
                   className="hidden 2xl:block pt-5 "
-                  src="https://drive.google.com/uc?export=view&id=1JG2BHRs9A39_JZWQg61IgiRkboAbXCzO"
+                  src="/shadel.png"
                   width={400}
                   height={400}
                   alt="hero section image"
@@ -48,7 +48,7 @@ function Hero() {
                   stiffness: 50,
                   delay: 1,
                 }}
-                className="hero-text   sm:py-3 py-5 text-gray-900 font-bold w-[100%] lg:w-[70%] justify-start sm:justify-end "
+                className="hero-text  sm:pt-10 pt-0 sm:py-3 py-5 text-gray-900 font-bold w-[100%] lg:w-[70%] justify-start sm:justify-end "
               >
                 Since 2001, SHADEL has been a leader in sheet metal fabrication,{" "}
                 <br />

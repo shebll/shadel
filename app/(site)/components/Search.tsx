@@ -1,29 +1,29 @@
-"use client";
+"use client"
 
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation"
 import {
   ChangeEvent,
   Dispatch,
   FormEvent,
   SetStateAction,
   useState,
-} from "react";
+} from "react"
 type props = {
-  setState?: Dispatch<SetStateAction<boolean>>;
-};
+  setState?: Dispatch<SetStateAction<boolean>>
+}
 function Search({ setState }: props) {
-  const router = useRouter();
-  const [searchValue, setSearchValue] = useState("");
+  const router = useRouter()
+  const [searchValue, setSearchValue] = useState("")
 
   function submitHandler(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setSearchValue("");
-    if (setState) setState!(false);
+    e.preventDefault()
+    setSearchValue("")
+    if (setState) setState!(false)
 
-    router.push(`/searchByName/${searchValue}`);
+    router.push(`/searchByName/${searchValue}`)
   }
   function changeHandler(e: ChangeEvent<HTMLInputElement>) {
-    setSearchValue(e.target.value);
+    setSearchValue(e.target.value)
   }
   return (
     <form onSubmit={submitHandler}>
@@ -62,7 +62,7 @@ function Search({ setState }: props) {
         </button>
         <input
           type="text"
-          placeholder="search by name"
+          placeholder="Search By Name"
           className=" bg-gray-200 rounded-full text-lg px-4 py-2 outline-none text-gray-700 w-[150px] xl:w-[260px] "
           onChange={changeHandler}
           required
@@ -70,7 +70,7 @@ function Search({ setState }: props) {
         />
       </div>
     </form>
-  );
+  )
 }
 
-export default Search;
+export default Search

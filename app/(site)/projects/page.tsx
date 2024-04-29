@@ -50,10 +50,10 @@ export default function Projects() {
                   Prouduction Line Turn Key
                 </h2>
                 <p className="mt-4 text-gray-500">
-                  Our project with Shadel Industry involved the development and
-                  implementation of a turnkey production pipeline for their
-                  innovative shading solutions showcased at the Cairo
-                  International Convention Exhibition
+                  Our project with Shadel Industrial Company includes
+                  development and... Implement a turnkey production pipeline for
+                  them Innovative manufacturing solutions emerge in Cairo
+                  International conference exhibition
                 </p>
 
                 <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8 ">
@@ -62,10 +62,11 @@ export default function Projects() {
                       Challenges and Solutions:{" "}
                     </dt>
                     <dd className="mt-2 text-sm text-gray-500">
-                      One challenge we faced was integrating diverse shading
-                      solutions into a unified production pipeline. To overcome
-                      this, we implemented a modular approach that allowed for
-                      seamless integration and customization.
+                      One challenge we faced was integrating diverse
+                      manufacturing solutions into a unified production
+                      pipeline. To overcome this, we implemented a modular
+                      approach that allowed for seamless integration and
+                      customization.
                     </dd>
                   </div>
 
@@ -90,7 +91,7 @@ export default function Projects() {
                       experienced a significant reduction in production lead
                       times, leading to improved efficiency and cost savings.
                       Additionally, client feedback highlighted the enhanced
-                      quality and versatility of their shading solutions.
+                      quality and versatility of their manufacturing solutions.
                     </dd>
                   </div>
                   <div className="border-t border-gray-200 pt-4">
@@ -255,7 +256,7 @@ export default function Projects() {
                   whileInView="show"
                   className="grid grid-cols-2 grid-rows-3   sm:grid-cols-2 lg:grid-cols-2"
                 >
-                  <div className=" h-[80%] w-[80%]">
+                  <div className=" h-[90%] w-[90%]">
                     <motion.img
                       src="/projects/x-1.jpg"
                       alt="Side of walnut card tray with card groove and recessed card area."
@@ -263,7 +264,7 @@ export default function Projects() {
                       variants={images}
                     />
                   </div>
-                  <div className=" h-[80%] w-[80%]">
+                  <div className=" h-[90%] w-[90%]">
                     <motion.img
                       src="/projects/x-2.jpg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
@@ -271,7 +272,7 @@ export default function Projects() {
                       variants={images}
                     />
                   </div>
-                  <div className=" h-[80%] w-[80%]">
+                  <div className=" h-[90%] w-[90%]">
                     <motion.img
                       src="/projects/x-3.jpg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
@@ -279,7 +280,7 @@ export default function Projects() {
                       variants={images}
                     />
                   </div>
-                  <div className=" h-[80%] w-[80%] ">
+                  <div className=" h-[90%] w-[90%] ">
                     <motion.img
                       src="/projects/x-4.jpg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
@@ -287,7 +288,7 @@ export default function Projects() {
                       variants={images}
                     />
                   </div>
-                  <div className=" h-[80%] w-[80%]">
+                  <div className=" h-[90%] w-[90%]">
                     <motion.img
                       src="/projects/x-6.jpeg"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
@@ -295,9 +296,9 @@ export default function Projects() {
                       variants={images}
                     />
                   </div>
-                  <div className=" h-[80%] w-[80%] ">
+                  <div className=" h-[90%] w-[90%] ">
                     <motion.img
-                      src="/projects/x-5.jpg"
+                      src="/projects/x-5.png"
                       alt="Walnut card tray filled with cards and card angled in dedicated groove."
                       className="rounded-lg bg-gray-800 sm:object-cover sm:h-full"
                       variants={images}

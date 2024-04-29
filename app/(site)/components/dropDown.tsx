@@ -24,21 +24,6 @@ function DropDown() {
           state == true ? "block" : "hidden"
         } inline-flex lg:hidden flex-col items-center justify-between absolute top-0 left-0 gap-10 bg-black p-10 w-full z-[1] pt-[60px] `}
       >
-        {/* <Image
-          width={400}
-          height={200}
-          src="/bg/5.png"
-          alt="bg"
-          style={{
-            height: "50vh",
-            objectFit: "cover",
-            width: "100%",
-            position: "absolute",
-            zIndex: "-5",
-            top: "-30%",
-            right: "0",
-          }}
-        /> */}
         <div onClick={handleClick} className="absolute top-6 right-10 ">
           <Image
             src={"/close2.jpg"}
@@ -62,18 +47,22 @@ function DropDown() {
           >
             <Link href="/machine">Machines</Link>
           </li>
+          <li className="font-semibold text-2xl hover:text-red-600 text-white ">
+            <Link href="#Aboutus">About Us</Link>
+          </li>
+          <li
+            onClick={handleClick}
+            className="font-semibold text-2xl hover:text-red-600 text-white"
+          >
+            <Link href="/projects">⁠Services</Link>
+          </li>
           <li
             onClick={handleClick}
             className="font-semibold text-2xl hover:text-red-600 text-white"
           >
             <Link href="/events">Events</Link>
           </li>
-          <li
-            onClick={handleClick}
-            className="font-semibold text-2xl hover:text-red-600 text-white"
-          >
-            <Link href="/projects">Projects</Link>
-          </li>
+
           <li
             onClick={handleClick}
             className="font-semibold text-2xl hover:text-red-600 text-white"

@@ -26,7 +26,7 @@ function Footer() {
               </div>
               <div className="flex ">
                 <b className="hover:text-red-600 cursor-pointer">
-                  Factory 7A,6th Of October Industrial Zone, Giza
+                  Factory 7A,6th Of October <br /> Industrial Zone, Giza
                 </b>
               </div>
 
@@ -42,11 +42,21 @@ function Footer() {
           <div className="flex gap-4 flex-col">
             <h1 className="text-2xl font-semibold"> Get In Touch</h1>
             <div className="flex gap-1 flex-col">
-              <b className="hover:text-red-600">Egypt +2 0106 518 8966</b>
-              <b className="hover:text-red-600">KSA +966 55 769 1015 </b>
-              <b className="hover:text-red-600">Oman +968 9932 9189</b>
-              <b className="hover:text-red-600">USA +1 321 948 3883</b>
-              <b className="hover:text-red-600">China 008613825513735</b>
+              <b className="hover:text-red-600 ">
+                Egypt <span className="underline">+2 0106 518 8966</span>
+              </b>
+              <b className="hover:text-red-600">
+                KSA <span className="underline ml-3"> +966 55 769 1015</span>{" "}
+              </b>
+              <b className="hover:text-red-600">
+                Oman <span className="underline">+968 9932 9189</span>
+              </b>
+              <b className="hover:text-red-600">
+                USA <span className="underline ml-3">+1 321 948 3883</span>
+              </b>
+              <b className="hover:text-red-600">
+                China <span className="underline ">008613825513735</span>
+              </b>
 
               <a href="mailto:info@shadel.net" className="hover:text-red-600">
                 info@shadel.net
@@ -54,7 +64,9 @@ function Footer() {
             </div>
           </div>
           <div className="flex gap-4 flex-col">
-            <h1 className="text-2xl font-semibold">Discover</h1>
+            <h1 className="text-2xl font-semibold">
+              For Technical Consultation
+            </h1>
             <div className="flex gap-1 flex-col">
               <div className="text-xl font-medium flex gap-1">
                 <Image
@@ -63,16 +75,19 @@ function Footer() {
                   width={20}
                   height={20}
                 />
-                <b className="hover:text-red-600"> +2 0106 0333 646</b>
+                <b className="hover:text-red-600 underline">
+                  {" "}
+                  +2 0106 0333 646
+                </b>
               </div>
-              <a href="#" className="hover:text-red-600">
+              <a href="/" className="hover:text-red-600">
                 Home
               </a>
-              <a href="/product" className="hover:text-red-600">
+              <a href="/products" className="hover:text-red-600">
                 Products
               </a>
-              <a href="/machine" className="hover:text-red-600">
-                Machine
+              <a href="/machines" className="hover:text-red-600">
+                Machines
               </a>
               <div className="flex gap-3 items-center">
                 <a

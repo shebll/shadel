@@ -24,7 +24,7 @@ const variants = {
 const images = {
   hidden: {
     opacity: 0,
-    x: -30,
+    x: 30,
   },
   show: {
     opacity: 1,
@@ -53,7 +53,7 @@ export default function Aboutpage() {
           height: "50vh",
           objectFit: "cover",
           width: "100%",
-          position: "absolute",
+          position: "relative",
           zIndex: "-1",
           top: "3%",
           opacity: "1",
@@ -63,7 +63,7 @@ export default function Aboutpage() {
       <div className="eventsbg"></div>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>
-          <div className="  w-full h-full pt-[60%] sm:pt-[18%]">
+          <div className="  w-full h-full ">
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">
               <div>
                 <div className="flex items-center " style={{ gap: "5%" }}>
@@ -84,7 +84,7 @@ export default function Aboutpage() {
                   engineering, where we meticulously craft flawless sheet metal
                   and press metal solutions. Enhance your outdoor spaces with
                   our unparalleled shading solutions, thoughtfully designed to
-                  blend innovation with style. Choose excellence, choose Shadel
+                  blend innovation with style. Select excellence, select Shadel
                   Industry.
                 </p>
 
@@ -173,7 +173,7 @@ export default function Aboutpage() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="  w-full h-full pt-[60%] sm:pt-[18%]">
+          <div className="  w-full h-full ">
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">
               <div>
                 <div className="flex items-center " style={{ gap: "5%" }}>
@@ -193,7 +193,7 @@ export default function Aboutpage() {
                   cutting-edge techniques and precision engineering as we craft
                   flawless sheet metal and press metal solutions. Elevate your
                   outdoor spaces with our unmatched shading solutions, merging
-                  innovation with elegance. Opt for excellence; opt for Shadel
+                  innovation with elegance. Select excellence, select Shadel
                   Industry.
                 </p>
 
@@ -274,6 +274,50 @@ export default function Aboutpage() {
                   muted
                 />
               </motion.div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className=" sm:pt-6 ">
+            <Image
+              width={569}
+              height={374}
+              src="/bg/com.png" // Assuming "coming.png" is in the public directory
+              className="w-[80%] z-10  ml-[10%] rounded-2xl"
+              alt="" // Provide an appropriate alt text for accessibility
+            />
+            <div className="w-[80%] pt-10  block 2xl:hidden">
+              <div className=" flex flex-col justify-center items-center pl-[15%] ">
+                <h1 className=" text-xl font-bold mt-0">
+                  Experience the Future
+                </h1>
+                <p>
+                  Prepare to be captivated by the excitement and anticipation
+                  surrounding the upcoming Shadel Exhibition. Set to take place
+                  at Exhibition,
+                  <br /> this eagerly awaited event promises an unforgettable
+                  experience for all who attend. <br /> As you step into our
+                  exhibit, you'll be greeted by a world of innovation and
+                  creativity, where every detail is meticulously curated to
+                  inspire awe and wonder. <br /> Explore the cutting-edge
+                  advancements in metal manipulation, from flawless sheet metal
+                  to precision-engineered solutions that push the boundaries of
+                  possibility. <br /> Immerse yourself in the artistry of design
+                  as we unveil our latest creations, each one a testament to
+                  Shadel's unwavering commitment to excellence.
+                </p>
+                <h1 className="text-xl font-bold pt-5">
+                  Elevate Your Outdoor Spaces
+                </h1>
+                <p>
+                  Elevate your outdoor spaces with our bespoke shading
+                  solutions, crafted to blend seamlessly with any environment.{" "}
+                  <br /> Join us as we unveil the future of design and
+                  technology. <br /> The countdown to greatness has begun -
+                  don't miss your chance to be part of it. Select anticipation,
+                  Select excitement, Select Shadel.
+                </p>
+              </div>
             </div>
           </div>
         </SwiperSlide>

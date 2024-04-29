@@ -15,16 +15,28 @@ function Header() {
             transition={{ duration: 1, type: "spring", stiffness: 50 }}
             className="container flex items-center justify-between py-4 mx-auto"
           >
-            <Link href="/">
-              <Image
-                src="https://drive.google.com/uc?export=view&id=1RZdwU_UFadMTXOCIaiwbdSwLmG2tUkpz"
-                alt="logo image"
-                loading="lazy"
-                width={250}
-                height={54}
-                className="object-contain"
-              ></Image>
-            </Link>
+            <div className="flex ">
+              <Link href="/">
+                <Image
+                  src="/shadel.png"
+                  alt="logo image"
+                  loading="lazy"
+                  width={150}
+                  height={54}
+                  className="object-contain sm:w-52 w-28 sm:ml-0 ml-5 max-w-[140px] "
+                ></Image>
+              </Link>
+              {/* <Link href="/">
+                <Image
+                  src="https://drive.google.com/uc?export=view&id=1RZdwU_UFadMTXOCIaiwbdSwLmG2tUkpz"
+                  alt="logo image"
+                  loading="lazy"
+                  width={250}
+                  height={54}
+                  className="object-contain sm:w-52 w-44 sm:ml-0 ml-5 s"
+                ></Image>
+              </Link> */}
+            </div>
             <div className="hidden lg:block">
               <Search />
             </div>
@@ -110,8 +122,12 @@ function Header() {
                 <li className="text-lg font-semibold text-black hover:text-red-600 ">
                   <Link href="/machine">Machines </Link>
                 </li>
+                <li className="text-lg font-semibold text-black hover:text-red-600 ">
+                  <Link href="#Aboutus">About Us</Link>
+                </li>
+
                 <li className="text-lg font-semibold text-black hover:text-red-600">
-                  <Link href="/projects">Projects</Link>
+                  <Link href="/projects">⁠Services</Link>
                 </li>
                 <li className="text-lg font-semibold text-black hover:text-red-600">
                   <Link href="/events">Events</Link>

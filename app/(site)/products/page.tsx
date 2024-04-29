@@ -66,11 +66,10 @@ function AllProducts() {
               }}
               className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
             >
-              <div className="overflow-hidden md:h-[300px] shadow-sm">
+              <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  // https://drive.google.com/file/d/1KQ2RFIzKEF8svvTwZfO8n3qv5vsgpDa8/view?usp=drive_link
                   src={
-                    "https://drive.google.com/uc?export=view&id=1KQ2RFIzKEF8svvTwZfO8n3qv5vsgpDa8"
+                    "https://drive.google.com/uc?export=view&id=1YliqN7_Cn0igXzT5NOyBGsgWow-DLz3x"
                   }
                   alt="image"
                   width={900}
@@ -79,14 +78,14 @@ function AllProducts() {
                 />
               </div>
               <div className="flex flex-col gap-6 px-6 pb-8 ">
-                <h2 className="text-2xl font-bold">Kitchen Utensils</h2>
+                <h2 className="text-2xl font-bold">Central Kitchen</h2>
                 <p>
-                  Utensil Supply is your one-stop destination for high-quality
-                  kitchen tools, providing everything you need to elevate your
-                  cooking experience to the next level.
+                  Revolutionize your kitchen with our central appliance hub,
+                  simplifying meal prep and enhancing functionality for ultimate
+                  culinary convenience.
                 </p>
                 <Link
-                  href={"/product?type=utensils"}
+                  href={"/product?type=hot"}
                   className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
                 >
                   See More
@@ -129,7 +128,46 @@ function AllProducts() {
                   See More
                 </Link>
               </div>
-            </m.div>{" "}
+            </m.div>
+            <m.div
+              initial={{ y: 250 }}
+              whileInView={{ y: 0 }}
+              transition={{
+                duration: 1,
+                type: "spring",
+                stiffness: 50,
+                delay: 0.15,
+              }}
+              className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
+            >
+              <div className="overflow-hidden md:h-[300px] shadow-sm">
+                <Image
+                  // https://drive.google.com/file/d/1KQ2RFIzKEF8svvTwZfO8n3qv5vsgpDa8/view?usp=drive_link
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1KQ2RFIzKEF8svvTwZfO8n3qv5vsgpDa8"
+                  }
+                  alt="image"
+                  width={900}
+                  height={150}
+                  className=""
+                />
+              </div>
+              <div className="flex flex-col gap-6 px-6 pb-8 ">
+                <h2 className="text-2xl font-bold">Kitchen Utensils</h2>
+                <p>
+                  Utensil Supply is your one-stop destination for high-quality
+                  kitchen tools, providing everything you need to elevate your
+                  cooking experience to the next level.
+                </p>
+                <Link
+                  href={"/product?type=utensils"}
+                  className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
+                >
+                  See More
+                </Link>
+              </div>
+            </m.div>
+
             <m.div
               initial={{ y: 250 }}
               whileInView={{ y: 0 }}
@@ -161,159 +199,6 @@ function AllProducts() {
                 </p>
                 <Link
                   href={"/product?type=others"}
-                  className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
-                >
-                  See More
-                </Link>
-              </div>
-            </m.div>
-          </div>
-          <div className="sm:grid sm:grid-cols-3 flex justify-center items-center gap-20 flex-col lg:flex-row">
-            <m.div
-              initial={{ y: 250 }}
-              whileInView={{ y: 0 }}
-              transition={{
-                duration: 1,
-                type: "spring",
-                stiffness: 50,
-                delay: 0.15,
-              }}
-              className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
-            >
-              <div className="overflow-hidden md:h-[300px]">
-                <Image
-                  src={
-                    "https://drive.google.com/uc?export=view&id=1YliqN7_Cn0igXzT5NOyBGsgWow-DLz3x"
-                  }
-                  alt="image"
-                  width={900}
-                  height={150}
-                  className=""
-                />
-              </div>
-              <div className="flex flex-col gap-6 px-6 pb-8 ">
-                <h2 className="text-2xl font-bold">Central Kitchen</h2>
-                <p>
-                  Revolutionize your kitchen with our central appliance hub,
-                  simplifying meal prep and enhancing functionality for ultimate
-                  culinary convenience.
-                </p>
-                <Link
-                  href={"/product?type=hot"}
-                  className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
-                >
-                  See More
-                </Link>
-              </div>
-            </m.div>
-            <m.div
-              initial={{ y: 250 }}
-              whileInView={{ y: 0 }}
-              transition={{
-                duration: 1,
-                type: "spring",
-                stiffness: 50,
-                delay: 0.15,
-              }}
-              className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
-            >
-              <div className="overflow-hidden md:h-[300px]">
-                <Image
-                  src={
-                    "https://drive.google.com/uc?export=view&id=1hx35R8mzAjKXa5i8PK40wajmE0yNlpke"
-                  }
-                  alt="image"
-                  width={900}
-                  height={150}
-                  className=""
-                />
-              </div>
-              <div className="flex flex-col gap-6 px-6 pb-8">
-                <h2 className="text-2xl font-bold">Laundry</h2>
-                <p>
-                  Optimize laundry with our efficient equipment, ensuring
-                  freshness and efficiency with every load. Transform your
-                  laundry experience.
-                </p>
-                <Link
-                  href={"/product?type=laundry"}
-                  className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
-                >
-                  See More
-                </Link>
-              </div>
-            </m.div>
-
-            <m.div
-              initial={{ y: 250 }}
-              whileInView={{ y: 0 }}
-              transition={{
-                duration: 1,
-                type: "spring",
-                stiffness: 50,
-                delay: 0.15,
-              }}
-              className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
-            >
-              <div className="overflow-hidden md:h-[300px]">
-                <Image
-                  src={
-                    "https://drive.google.com/uc?export=view&id=1dDYo18FiA_u1jVaM506vVPfauhCr30_V"
-                  }
-                  alt="image"
-                  width={900}
-                  height={150}
-                  className=""
-                />
-              </div>
-              <div className="flex flex-col gap-6 px-6 pb-8">
-                <h2 className="text-2xl font-bold">Home Appliances</h2>
-                <p>
-                  Elevate your home living with our vast array of premium
-                  appliances, simplifying daily chores and enriching your
-                  lifestyle with ease and convenience.
-                </p>
-                <Link
-                  href={"/product?type=castle"}
-                  className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
-                >
-                  See More
-                </Link>
-              </div>
-            </m.div>
-          </div>
-          <div className="sm:grid sm:grid-cols-3 flex justify-center items-center gap-20 flex-col lg:flex-row">
-            <m.div
-              initial={{ y: 250 }}
-              whileInView={{ y: 0 }}
-              transition={{
-                duration: 1,
-                type: "spring",
-                stiffness: 50,
-                delay: 0.15,
-              }}
-              className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
-            >
-              <div className="overflow-hidden md:h-[300px]">
-                <Image
-                  src={
-                    "https://drive.google.com/uc?export=view&id=1kxk4MGeV0N5ouo8tKu2aAcl4JDkPtdJi"
-                  }
-                  alt="image"
-                  width={900}
-                  height={150}
-                  className=""
-                />
-              </div>
-              <div className="flex flex-col gap-6 px-6 pb-8">
-                <h2 className="text-2xl font-bold">Fire Extinguisher</h2>
-                <p>
-                  Safeguard your space with reliable fire extinguishers,
-                  ensuring peace of mind and swift response in emergencies.
-                  Protect what matters most.
-                </p>
-                <Link
-                  href={"/product?type=boiler"}
                   className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
                 >
                   See More
@@ -357,6 +242,121 @@ function AllProducts() {
                 </Link>
               </div>
             </m.div>
+            <m.div
+              initial={{ y: 250 }}
+              whileInView={{ y: 0 }}
+              transition={{
+                duration: 1,
+                type: "spring",
+                stiffness: 50,
+                delay: 0.15,
+              }}
+              className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
+            >
+              <div className="overflow-hidden md:h-[300px]">
+                <Image
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1hx35R8mzAjKXa5i8PK40wajmE0yNlpke"
+                  }
+                  alt="image"
+                  width={900}
+                  height={150}
+                  className=""
+                />
+              </div>
+              <div className="flex flex-col gap-6 px-6 pb-8">
+                <h2 className="text-2xl font-bold">Laundry</h2>
+                <p>
+                  Optimize laundry with our efficient equipment,
+                  <br /> ensuring freshness and efficiency with every load.{" "}
+                  <br />
+                  Transform your laundry experience.
+                </p>
+                <Link
+                  href={"/product?type=laundry"}
+                  className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
+                >
+                  See More
+                </Link>
+              </div>
+            </m.div>
+          </div>
+          <div className="sm:grid sm:grid-cols-3 flex justify-center items-center gap-20 flex-col lg:flex-row">
+            <m.div
+              initial={{ y: 250 }}
+              whileInView={{ y: 0 }}
+              transition={{
+                duration: 1,
+                type: "spring",
+                stiffness: 50,
+                delay: 0.15,
+              }}
+              className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
+            >
+              <div className="overflow-hidden md:h-[300px]">
+                <Image
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1dDYo18FiA_u1jVaM506vVPfauhCr30_V"
+                  }
+                  alt="image"
+                  width={900}
+                  height={150}
+                  className=""
+                />
+              </div>
+              <div className="flex flex-col gap-6 px-6 pb-8">
+                <h2 className="text-2xl font-bold">Home Appliances</h2>
+                <p>
+                  Elevate your home living with our vast array of premium
+                  appliances, simplifying daily chores and enriching your
+                  lifestyle with ease and convenience.
+                </p>
+                <Link
+                  href={"/product?type=castle"}
+                  className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
+                >
+                  See More
+                </Link>
+              </div>
+            </m.div>
+            <m.div
+              initial={{ y: 250 }}
+              whileInView={{ y: 0 }}
+              transition={{
+                duration: 1,
+                type: "spring",
+                stiffness: 50,
+                delay: 0.15,
+              }}
+              className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
+            >
+              <div className="overflow-hidden md:h-[300px]">
+                <Image
+                  src={
+                    "https://drive.google.com/uc?export=view&id=1kxk4MGeV0N5ouo8tKu2aAcl4JDkPtdJi"
+                  }
+                  alt="image"
+                  width={900}
+                  height={150}
+                  className=""
+                />
+              </div>
+              <div className="flex flex-col gap-6 px-6 pb-8">
+                <h2 className="text-2xl font-bold">Fire Extinguisher</h2>
+                <p>
+                  Safeguard your space with reliable fire extinguishers,
+                  ensuring peace of mind and swift response in emergencies.
+                  Protect what matters most.
+                </p>
+                <Link
+                  href={"/product?type=boiler"}
+                  className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
+                >
+                  See More
+                </Link>
+              </div>
+            </m.div>
+
             <m.div
               initial={{ y: 250 }}
               whileInView={{ y: 0 }}
