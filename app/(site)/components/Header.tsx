@@ -118,7 +118,7 @@ function Header() {
                 </div>
                 <div className="relative">
                   <li className="flex items-center text-lg font-semibold text-black group hover:text-red-600">
-                    <Link href="/machines">Machines </Link>
+                    <Link href="/machines">Machines</Link>
 
                     <Image
                       width={40}
@@ -182,19 +182,15 @@ function Header() {
                   </li>
                 </div>
 
-                <li className="text-lg font-semibold text-black hover:text-red-600 ">
-                  <Link href="/#Aboutus">About Us</Link>
-                </li>
-
                 <li className="text-lg font-semibold text-black hover:text-red-600">
                   <Link href="/projects">⁠Services</Link>
                 </li>
                 <li className="text-lg font-semibold text-black hover:text-red-600">
                   <Link href="/events">Events</Link>
                 </li>
-                {/* <li className="text-2xl font-semibold text-black hover:text-red-600">
-                <Link href="/#services">services</Link>
-              </li> */}
+                <li className="text-lg font-semibold text-black hover:text-red-600 ">
+                  <Link href="/#Aboutus">About Us</Link>
+                </li>
                 <li className="text-lg font-semibold text-black hover:text-red-600">
                   <Link href="/#footer">Contact</Link>
                 </li>

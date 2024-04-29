@@ -47,9 +47,7 @@ function DropDown() {
           >
             <Link href="/machine">Machines</Link>
           </li>
-          <li className="font-semibold text-2xl hover:text-red-600 text-white ">
-            <Link href="#Aboutus">About Us</Link>
-          </li>
+
           <li
             onClick={handleClick}
             className="font-semibold text-2xl hover:text-red-600 text-white"
@@ -62,7 +60,9 @@ function DropDown() {
           >
             <Link href="/events">Events</Link>
           </li>
-
+          <li className="font-semibold text-2xl hover:text-red-600 text-white ">
+            <Link href="#Aboutus">About Us</Link>
+          </li>
           <li
             onClick={handleClick}
             className="font-semibold text-2xl hover:text-red-600 text-white"
