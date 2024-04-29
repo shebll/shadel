@@ -43,7 +43,10 @@ export function DrawerPlacement() {
             className="text-white"
           >
             <Link href="/product">
-              <b className="text-white text-2xl"> Products</b>
+              <b className="text-white text-2xl hover:text-red-600">
+                {" "}
+                Products
+              </b>
             </Link>
           </div>
           <IconButton

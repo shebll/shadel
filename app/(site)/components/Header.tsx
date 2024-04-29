@@ -116,14 +116,74 @@ function Header() {
                     </div>
                   </li>
                 </div>
-                {/* <li className="text-2xl font-semibold text-black hover:text-red-600 ">
-                  <Link href="/certifcate">certifcate </Link>
-                </li> */}
+                <div className="relative">
+                  <li className="flex items-center text-lg font-semibold text-black group hover:text-red-600">
+                    <Link href="/machines">Machines </Link>
+
+                    <Image
+                      width={40}
+                      height={40}
+                      src="/Rr.png"
+                      alt="drop down menu"
+                      className="cursor-pointer "
+                    />
+                    <div className="absolute left-0 hidden mb-2 transition-opacity duration-300 bg-white rounded-lg shadow-lg w-60 top-full group-hover:block -z-10 group-hover:z-20">
+                      <ul className="">
+                        <li className="text-sm text-black duration-300 hover:bg-gray-100 hover:pl-2 hover:text-red-600">
+                          <Link
+                            href={"/machine?type=brake"}
+                            className="block px-4 py-2 "
+                          >
+                            Press brake{" "}
+                          </Link>
+                        </li>
+                        <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                          <Link
+                            href={"/machine?type=shear"}
+                            className="block px-4 py-2"
+                          >
+                            Shear Machines{" "}
+                          </Link>
+                        </li>
+                        <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                          <Link
+                            href={"/machine?type=laser"}
+                            className="block px-4 py-2"
+                          >
+                            Laser Machines{" "}
+                          </Link>
+                        </li>
+                        <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                          <Link
+                            href={"/machine?type=rolling"}
+                            className="block px-4 py-2"
+                          >
+                            Rollers Machines{" "}
+                          </Link>
+                        </li>
+                        <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                          <Link
+                            href={"/machine?type=press"}
+                            className="block px-4 py-2"
+                          >
+                            Punching Machines{" "}
+                          </Link>
+                        </li>
+                        <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                          <Link
+                            href={"/machine?type=bind"}
+                            className="block px-4 py-2"
+                          >
+                            Bender Machines{" "}
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </div>
+
                 <li className="text-lg font-semibold text-black hover:text-red-600 ">
-                  <Link href="/machine">Machines </Link>
-                </li>
-                <li className="text-lg font-semibold text-black hover:text-red-600 ">
-                  <Link href="#Aboutus">About Us</Link>
+                  <Link href="/#Aboutus">About Us</Link>
                 </li>
 
                 <li className="text-lg font-semibold text-black hover:text-red-600">

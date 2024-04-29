@@ -27,6 +27,21 @@ const Machine = {
       ],
     },
     {
+      name: "type",
+      title: "Type",
+      type: "string",
+      options: {
+        list: [
+          { title: "laser", value: "laser" },
+          { title: "brake", value: "brake" },
+          { title: "rolling", value: "rolling" },
+          { title: "press", value: "press" },
+          { title: "shear", value: "shear" },
+          { title: "bind", value: "bind" },
+        ],
+      },
+    },
+    {
       name: "secImages",
       title: "secImages",
       type: "array",

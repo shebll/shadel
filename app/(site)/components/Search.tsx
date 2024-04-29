@@ -63,7 +63,7 @@ function Search({ setState }: props) {
         <input
           type="text"
           placeholder="Search By Name"
-          className=" bg-gray-200 rounded-full text-lg px-4 py-2 outline-none text-gray-700 w-[150px] xl:w-[260px] "
+          className=" bg-gray-200 rounded-full text-lg px-4 py-2 outline-none text-white sm:w-[150px] w-full xl:w-[260px] "
           onChange={changeHandler}
           required
           value={searchValue}

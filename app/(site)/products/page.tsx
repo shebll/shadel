@@ -397,7 +397,6 @@ function AllProducts() {
           </div>
         </section>
       </LazyMotion>
-      <AllMachines />
     </div>
   )
 }
