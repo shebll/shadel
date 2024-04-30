@@ -9,7 +9,7 @@ export const metadata = {
   title: "Shadel",
   description: "Wadi Elnile description",
   icons: {
-    icon: "/wl.png",
+    icon: "/shadel.png",
   },
 }
 
