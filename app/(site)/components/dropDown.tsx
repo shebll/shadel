@@ -45,7 +45,7 @@ function DropDown() {
             onClick={handleClick}
             className="font-semibold text-2xl hover:text-red-600 text-white "
           >
-            <Link href="/machine">Machines</Link>
+            <Link href="/machines">Machines</Link>
           </li>
 
           <li
