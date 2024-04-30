@@ -124,14 +124,6 @@ export function DrawerPlacement() {
             </ul>
           </div>
         </div>
-        <div className="flex gap-2 ">
-          <Image
-            width={350}
-            height={30}
-            src="https://drive.google.com/uc?export=view&id=16L3BqT-cHCkbQc-CrNZ855tOk9bLj_p_"
-            alt="s"
-          />
-        </div>
       </Drawer>
     </React.Fragment>
   )
