@@ -30,7 +30,7 @@ function getProductName(typeQuery: string) {
 
 const Loading = () => {
   return (
-    <div className=" min-h-screen w-full z-[100] flex justify-center items-center gap-8 flex-col ">
+    <div className=" min-h-screen w-full z-[100] flex justify-center items-center gap-8 flex-col pt-[10%]">
       <h1 className="w-[300px] h-[80px] bg-gray-50 rounded-[20px] flashing"></h1>
       <div className="flex items-center justify-center gap-8">
         <div className="w-[390px] h-[530px] bg-gray-50 rounded-[20px] flashing"></div>

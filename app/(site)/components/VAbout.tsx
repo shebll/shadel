@@ -86,13 +86,12 @@ function Aboutus() {
                     className=""
                   />
                 </div>
-
                 <div className=" p-6 rounded shadow">
                   <m.iframe
                     style={{ maxWidth: "100%" }}
                     width="560"
                     height="315"
-                    src="https://drive.google.com/file/d/1R-y2BaeKhbjMQConf98-_riCOhBY3kR8/preview"
+                    src="https://drive.google.com/file/d/1Q3uM-ymMSERDfw_OZmIFTQn-Fckp6tPZ/preview"
                     allowFullScreen
                     className=""
                   />
@@ -107,7 +106,7 @@ function Aboutus() {
                   <p className="text-black text-justify justify-start sm:justify-end">
                     At <b style={{ color: "black" }}>SHADEL</b>, our core values
                     define who we are and how we operate. We prioritize
-                    understanding and exceeding our clients' needs, building
+                    understanding and exceeding our client's needs, building
                     trust and long-term relationships through unwavering
                     customer centricity. We are relentless in pursuing new
                     technologies and processes to deliver the most advanced
@@ -158,7 +157,7 @@ function Aboutus() {
                     style={{ maxWidth: "100%" }}
                     width="560"
                     height="315"
-                    src="https://drive.google.com/file/d/1cxHcjDXvZ_MDA520WkCErWX2SkgFRPqr/preview"
+                    src="https://drive.google.com/file/d/1zsm36p5gPct-rMI3h8Jyys7aBVw9TRDy/preview"
                     allowFullScreen
                     className=""
                   />

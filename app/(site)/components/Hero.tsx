@@ -50,7 +50,7 @@ function Hero() {
                 }}
                 className="hero-text  sm:pt-10 pt-0 sm:py-3 py-5 text-gray-900 font-bold w-[100%] lg:w-[70%] justify-start sm:justify-end "
               >
-                Since 2001, SHADEL has been a leader in sheet metal fabrication,{" "}
+                Since 2016, SHADEL has been a leader in sheet metal fabrication,{" "}
                 <br />
                 specializing in stainless steel products at competitive prices.
                 <br /> Our commitment to quality and innovation drives us,

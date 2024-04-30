@@ -55,7 +55,7 @@ function Footer() {
                 USA <span className="underline ml-3">+1 321 948 3883</span>
               </b>
               <b className="hover:text-red-600">
-                China <span className="underline ">008613825513735</span>
+                China <span className="underline ">+86 138 2551 3735</span>
               </b>
 
               <a href="mailto:info@shadel.net" className="hover:text-red-600">
@@ -77,7 +77,7 @@ function Footer() {
                 />
                 <b className="hover:text-red-600 underline">
                   {" "}
-                  +2 0106 0333 646
+                  +2 0106 033 3646
                 </b>
               </div>
               <a href="/" className="hover:text-red-600">

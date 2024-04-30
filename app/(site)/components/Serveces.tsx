@@ -16,7 +16,7 @@ function Services() {
         "We provide maintenance contracts for factories and other products to ensure they run smoothly and efficiently.",
     },
     {
-      name: "Raw Material Suppliers",
+      name: "Raw Material Supply",
       content:
         "We provide all necessary raw materials to support your operations.",
     },

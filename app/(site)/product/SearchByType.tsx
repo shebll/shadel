@@ -1,43 +1,43 @@
-"use client";
+"use client"
 
-import { useRouter, useSearchParams } from "next/navigation";
-import Products from "../components/ProductsMachinesPage";
-import useProducts, { TQuery } from "@/hooks/use-products";
-import Link from "next/link";
-import { Suspense } from "react";
-import { DrawerPlacement } from "./drawer";
-import Image from "next/image";
+import { useRouter, useSearchParams } from "next/navigation"
+import Products from "../components/ProductsMachinesPage"
+import useProducts, { TQuery } from "@/hooks/use-products"
+import Link from "next/link"
+import { Suspense } from "react"
+import { DrawerPlacement } from "./drawer"
+import Image from "next/image"
 
-export const dynamic = "force-dynamic";
+export const dynamic = "force-dynamic"
 // ; | "" | ""
 function getProductName(typeQuery: string) {
   if (typeQuery === "hot") {
-    return "Heating";
+    return "Heating"
   } else if (typeQuery === "cold") {
-    return "Refrigeration";
+    return "Refrigeration"
   } else if (typeQuery === "kitchen") {
-    return "Kitchen";
+    return "Kitchen"
   } else if (typeQuery === "laundry") {
-    return "Laundry";
+    return "Laundry"
   } else if (typeQuery === "others") {
-    return "Medical";
+    return "Medical"
   } else if (typeQuery === "castle") {
-    return "Home Appliances";
+    return "Home Appliances"
   } else if (typeQuery === "boiler") {
-    return "Fire Extinguisher";
+    return "Fire Extinguisher"
   } else if (typeQuery === "burner") {
-    return "Boilers & Burners";
+    return "Boilers & Burners"
   } else if (typeQuery === "utensils") {
-    return "Kitchen Utensils";
+    return "Kitchen Utensils"
   } else if (typeQuery === "coffe") {
-    return "Others";
+    return "Others"
   } else {
-    return "Products";
+    return "Products"
   }
 }
 const Loading = () => {
   return (
-    <div className=" min-h-screen w-full z-[100] flex justify-center items-center gap-8 flex-col ">
+    <div className=" min-h-screen w-full z-[100] flex justify-center items-center gap-8 flex-col pt-[10%]">
       <h1 className="w-[300px] h-[80px] bg-gray-50 rounded-[20px] flashing"></h1>
       <div className="flex items-center justify-center gap-8">
         <div className="w-[390px] h-[530px] bg-gray-50 rounded-[20px] flashing"></div>
@@ -45,13 +45,13 @@ const Loading = () => {
         <div className="w-[390px] h-[530px] bg-gray-50 rounded-[20px] flashing"></div>
       </div>
     </div>
-  );
-};
+  )
+}
 export default function SearchByType() {
-  const params = useSearchParams();
-  const typeQuery = params.get("type") as TQuery;
-  const router = useRouter();
-  const { products, isLoading } = useProducts(typeQuery);
+  const params = useSearchParams()
+  const typeQuery = params.get("type") as TQuery
+  const router = useRouter()
+  const { products, isLoading } = useProducts(typeQuery)
 
   return (
     <div className=" flex flex-col gap-2 pt-[10px] ">
@@ -81,5 +81,5 @@ export default function SearchByType() {
         </Suspense>
       )}
     </div>
-  );
+  )
 }
