@@ -19,7 +19,7 @@ function Header() {
   return (
     <LazyMotion features={domAnimation}>
       <nav>
-        <div className="fixed top-0 z-250 w-full bg-white shadow-lg">
+        <div className="fixed top-0 z-50 w-full bg-white shadow-lg">
           <m.header
             initial={{ y: -250 }}
             animate={{ y: 0 }}

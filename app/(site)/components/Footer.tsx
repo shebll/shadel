@@ -7,7 +7,7 @@ function Footer() {
     <footer id="footer" className="bg-black text-white py-8 mt-50 px-4">
       <div className="container mx-auto flex flex-col items-center justify-center gap-10 w-full">
         <div className="flex flex-col md:flex-row  justify-between md:items-center w-[70%] md:w-[80%] gap-10">
-          <div className="flex gap-4 flex-col">
+          <div className="flex gap-4 flex-col sm:pb-12 pb-0">
             <h1 className="text-2xl font-semibold">Visit Us</h1>
 
             <div className="flex gap-1 flex-col">
@@ -29,14 +29,6 @@ function Footer() {
                   Factory 7A,6th Of October <br /> Industrial Zone, Giza
                 </b>
               </div>
-
-              <Image
-                width={390}
-                height={180}
-                src="https://drive.google.com/uc?export=view&id=16L3BqT-cHCkbQc-CrNZ855tOk9bLj_p_"
-                className="w-28 h-30"
-                alt=""
-              />
             </div>
           </div>
           <div className="flex gap-4 flex-col">
@@ -75,12 +67,11 @@ function Footer() {
                   width={20}
                   height={20}
                 />
-                <b className="hover:text-red-600 underline">
-                  {" "}
+                <b className="hover:text-red-600 underline ">
                   +2 0106 033 3646
                 </b>
               </div>
-              <a href="/" className="hover:text-red-600">
+              <a href="/" className="hover:text-red-600 pt-2">
                 Home
               </a>
               <a href="/products" className="hover:text-red-600">
