@@ -7,9 +7,10 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Shadel",
-  description: "Shadel description",
+  description:
+    "Top-quality sheet and press metal solutions for stylish designs.",
   icons: {
-    icon: "/shadel.png",
+    icon: "/we.png",
   },
 }
 

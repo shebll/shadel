@@ -205,13 +205,126 @@ function Header() {
                     )}
                   </li>
                 </div>
+                <div className="relative">
+                  <li className="flex items-center text-lg font-semibold text-black group hover:text-red-600">
+                    <Link onMouseEnter={() => toggleMenu()} href="/projects">
+                      ⁠Services
+                    </Link>
 
-                <li className="text-lg font-semibold text-black hover:text-red-600">
+                    <Image
+                      width={40}
+                      height={40}
+                      src="/Rr.png"
+                      alt="drop down menu"
+                      className="cursor-pointer "
+                    />
+                    {menuOpen && (
+                      <div className="absolute left-0 hidden mb-2 transition-opacity duration-300 bg-white rounded-lg shadow-lg w-60 top-full group-hover:block -z-10 group-hover:z-20">
+                        <ul className="">
+                          <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/projects#x1"}
+                              className="block px-4 py-2"
+                            >
+                              Projects{" "}
+                            </Link>
+                          </li>
+                          <li className="text-sm text-black duration-300 hover:bg-gray-100 hover:pl-2 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/projects#x2"}
+                              className="block px-4 py-2 "
+                            >
+                              Production line turn Key
+                            </Link>
+                          </li>
+                          <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/projects#x3"}
+                              className="block px-4 py-2"
+                            >
+                              Engineering Consultancies
+                            </Link>
+                          </li>
+                          <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/projects#x4"}
+                              className="block px-4 py-2"
+                            >
+                              indstrial Sectors
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                  </li>
+                </div>
+                <div className="relative">
+                  <li className="flex items-center text-lg font-semibold text-black group hover:text-red-600">
+                    <Link onMouseEnter={() => toggleMenu()} href="/events">
+                      Events
+                    </Link>
+
+                    <Image
+                      width={40}
+                      height={40}
+                      src="/Rr.png"
+                      alt="drop down menu"
+                      className="cursor-pointer "
+                    />
+                    {menuOpen && (
+                      <div className="absolute left-0 hidden mb-2 transition-opacity duration-300 bg-white rounded-lg shadow-lg w-60 top-full group-hover:block -z-10 group-hover:z-20">
+                        <ul className="">
+                          <li className="text-sm text-black duration-300 hover:bg-gray-100 hover:pl-2 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/events#x1"}
+                              className="block px-4 py-2 "
+                            >
+                              Suadi Food 2024
+                            </Link>
+                          </li>
+                          <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/events#x2"}
+                              className="block px-4 py-2"
+                            >
+                              MACTECH 2024
+                            </Link>
+                          </li>
+                          <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/events#x3"}
+                              className="block px-4 py-2"
+                            >
+                              MACTECH 2023
+                            </Link>
+                          </li>
+                          <li className="text-sm text-black duration-300 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/events#x4"}
+                              className="block px-4 py-2"
+                            >
+                              MACTECH 2022
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    )}
+                  </li>
+                </div>
+                {/* <li className="text-lg font-semibold text-black hover:text-red-600">
                   <Link href="/projects">⁠Services</Link>
                 </li>
                 <li className="text-lg font-semibold text-black hover:text-red-600">
                   <Link href="/events">Events</Link>
-                </li>
+                </li> */}
                 <li className="text-lg font-semibold text-black hover:text-red-600 ">
                   <Link href="/#Aboutus">About Us</Link>
                 </li>

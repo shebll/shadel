@@ -61,8 +61,202 @@ export default function Aboutpage() {
         }}
       />
       <div className="eventsbg"></div>
+      <div id="x1" className="  w-full h-full ">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">
+          <div>
+            <div className="flex items-center " style={{ gap: "5%" }}>
+              <h2 className="text-lg font-bold tracking-tight text-black sm:text-4xl">
+                Saudi Food in Saudi Arabia
+              </h2>
+              <img
+                src="/su.png"
+                alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+                width={200}
+              ></img>
+            </div>
+            <p className="mt-4 text-black">
+              Embark on a culinary adventure at Expo Saudi Food in Saudi Arabia,
+              hosted at the prestigious Riyadh International Convention &
+              Exhibition Center. Discover a world of gourmet delights and
+              innovative food solutions, where we bring together the finest in
+              Saudi cuisine and international flavors. Experience the artistry
+              of food preparation and presentation, designed to elevate your
+              dining experience with unmatched quality and creativity.
+            </p>
 
-      <div className="  w-full h-full ">
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+              <div className="border-t border-gray-200 pt-4">
+                <dt className="font-medium text-black">Highlights:</dt>
+                <dd className="mt-2 text-sm text-black">
+                  <li>
+                    Innovative Cuisine: Explore the latest trends and
+                    technologies in the food industry.
+                  </li>
+                  <li>
+                    Quality Craftsmanship: Learn about our commitment to premium
+                    ingredients and skilled culinary techniques.
+                  </li>
+                  <li>
+                    Customization Options: Discover versatile food products
+                    tailored to individual tastes and dietary requirements.
+                  </li>
+                </dd>
+              </div>
+
+              <div className="border-t border-gray-200 pt-4">
+                <dt className="font-medium text-black">Visit Us:</dt>
+                <dd className="mt-2 text-sm text-black">
+                  Join us at Expo Saudi Food to experience the beauty and
+                  functionality of our culinary offerings. Our team will be on
+                  hand to guide you through our products and innovations.
+                </dd>
+              </div>
+            </dl>
+          </div>
+          <motion.div
+            variants={variants}
+            initial="hidden"
+            whileInView="show"
+            className="grid grid-cols-2 grid-rows-2 gap-2 sm:gap-6 lg:gap-8"
+          >
+            <motion.img
+              src="/expo/z1.png"
+              alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+              className="rounded-lg bg-gray-100 "
+              variants={images}
+            />
+            <motion.img
+              src="/expo/z2.png"
+              alt="Top down view of walnut card tray with embedded magnets and card groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+            <motion.img
+              src="/expo/z3.png"
+              alt="Side of walnut card tray with card groove and recessed card area."
+              className="rounded-lg bg-gray-100 "
+              variants={images}
+            />
+            <motion.img
+              src="/expo/z4.png"
+              alt="Walnut card tray filled with cards and card angled in dedicated groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+            <motion.img
+              src="/expo/z5.png"
+              alt="Walnut card tray filled with cards and card angled in dedicated groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+            <motion.img
+              src="/expo/z6.png"
+              alt="Walnut card tray filled with cards and card angled in dedicated groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+          </motion.div>
+        </div>
+      </div>
+      <div id="x2" className="  w-full h-full bg-gray-100 ">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">
+          <div>
+            <div className="flex items-center " style={{ gap: "5%" }}>
+              <h2 className="text-lg font-bold tracking-tight text-black sm:text-4xl">
+                MACTECH 2024
+              </h2>
+              <img
+                src="/MACTECH.png"
+                alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+                width={200}
+              ></img>
+            </div>
+            <p className="mt-4 text-black">
+              Embark on a journey into the artistry of metal manipulation at
+              Shadel Industry's state-of-the-art facility, showcased at MACTECH
+              2024 in Saudi Arabia. Explore a realm of cutting-edge techniques
+              and precision engineering, where we meticulously craft flawless
+              sheet metal and press metal solutions. Enhance your outdoor spaces
+              with our unparalleled metal solutions, thoughtfully designed to
+              blend innovation with style. Choose excellence, choose Shadel
+              Industry.
+            </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+              <div className="border-t border-gray-200 pt-4">
+                <dt className="font-medium text-black">Highlights:</dt>
+                <dd className="mt-2 text-sm text-black">
+                  <li>
+                    Innovative Designs: Explore the latest trends and
+                    technologies
+                  </li>
+                  <li>
+                    Quality Craftsmanship: Learn about our commitment to premium
+                    materials and skilled craftsmanship.
+                  </li>
+                  <li>
+                    Customization Options: Discover versatile products tailored
+                    to individual preferences and project requirements.
+                  </li>
+                </dd>
+              </div>
+
+              <div className="border-t border-gray-200 pt-4">
+                <dt className="font-medium text-black">Visit Us:</dt>
+                <dd className="mt-2 text-sm text-black">
+                  Join us at MACTECH 2024 to experience the beauty and
+                  functionality of our metal solutions. Our staff will be on
+                  hand to guide you through our products and innovations.
+                </dd>
+              </div>
+            </dl>
+          </div>
+          <motion.div
+            variants={variants}
+            initial="hidden"
+            whileInView="show"
+            className="grid grid-cols-2 grid-rows-2 gap-2 sm:gap-6 lg:gap-8"
+          >
+            <motion.img
+              src="/expo/x1.png"
+              alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+              className="rounded-lg bg-gray-100 "
+              variants={images}
+            />
+            <motion.img
+              src="/expo/x2.png"
+              alt="Top down view of walnut card tray with embedded magnets and card groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+            <motion.img
+              src="/expo/x3.png"
+              alt="Side of walnut card tray with card groove and recessed card area."
+              className="rounded-lg bg-gray-100 "
+              variants={images}
+            />
+            <motion.img
+              src="/expo/x4.png"
+              alt="Walnut card tray filled with cards and card angled in dedicated groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+            <motion.img
+              src="/expo/x5.png"
+              alt="Walnut card tray filled with cards and card angled in dedicated groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+            <motion.img
+              src="/expo/x6.png"
+              alt="Walnut card tray filled with cards and card angled in dedicated groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+          </motion.div>
+        </div>
+      </div>
+      <div id="x3" className="  w-full h-full ">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">
           <div>
             <div className="flex items-center " style={{ gap: "5%" }}>
@@ -81,9 +275,9 @@ export default function Aboutpage() {
               renowned Cairo International Convention Exhibition. Explore a
               realm of cutting-edge techniques and precision engineering, where
               we meticulously craft flawless sheet metal and press metal
-              solutions. Enhance your outdoor spaces with our unparalleled
-              shading solutions, thoughtfully designed to blend innovation with
-              style. Select excellence, select Shadel Industry.
+              solutions. Enhance your outdoor spaces with our unparalleled metal
+              solutions, thoughtfully designed to blend innovation with style.
+              Select excellence, select Shadel Industry.
             </p>
 
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
@@ -92,7 +286,7 @@ export default function Aboutpage() {
                 <dd className="mt-2 text-sm text-black">
                   <li>
                     Innovative Designs: Explore the latest trends and
-                    technologies in shading.
+                    technologies in metal.
                   </li>
                   <li>
                     Quality Craftsmanship: Learn about our commitment to premium
@@ -109,8 +303,8 @@ export default function Aboutpage() {
                 <dt className="font-medium text-black">Visit Us:</dt>
                 <dd className="mt-2 text-sm text-black">
                   Join us at MACTECH to experience the beauty and functionality
-                  of our shading solutions. Our staff will be on hand to guide
-                  you through our products.
+                  of our metal solutions. Our staff will be on hand to guide you
+                  through our products.
                 </dd>
               </div>
             </dl>
@@ -169,7 +363,7 @@ export default function Aboutpage() {
         </div>
       </div>
 
-      <div className="  w-full h-full bg-gray-100 ">
+      <div id="x4" className="  w-full h-full bg-gray-100 ">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">
           <div>
             <div className="flex items-center " style={{ gap: "5%" }}>
@@ -188,7 +382,7 @@ export default function Aboutpage() {
               Convention Exhibition of 2022. Explore cutting-edge techniques and
               precision engineering as we craft flawless sheet metal and press
               metal solutions. Elevate your outdoor spaces with our unmatched
-              shading solutions, merging innovation with elegance. Select
+              metal solutions, merging innovation with elegance. Select
               excellence, select Shadel Industry.
             </p>
 
@@ -198,7 +392,7 @@ export default function Aboutpage() {
                 <dd className="mt-2 text-sm text-black">
                   <li>
                     Innovative Designs: Explore the latest trends and
-                    technologies in shading.
+                    technologies in metal.
                   </li>
                   <li>
                     Quality Craftsmanship: Learn about our commitment to premium
@@ -215,8 +409,8 @@ export default function Aboutpage() {
                 <dt className="font-medium text-black">Visit Us:</dt>
                 <dd className="mt-2 text-sm text-black">
                   Join us at MACTECH to experience the beauty and functionality
-                  of our shading solutions. Our staff will be on hand to guide
-                  you through our products.
+                  of our metal solutions. Our staff will be on hand to guide you
+                  through our products.
                 </dd>
               </div>
             </dl>
