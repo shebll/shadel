@@ -96,6 +96,7 @@ function Aboutus() {
                       src="https://drive.google.com/file/d/1_3oK9w9yhd9ul6jaFk8Qq3RgXQceYI5y/preview"
                       allowFullScreen
                       title="Embedded video"
+                      className="rounded-2xl"
                     />
                   </div>
                 </div>
@@ -119,6 +120,7 @@ function Aboutus() {
                       src="https://drive.google.com/file/d/1Q3uM-ymMSERDfw_OZmIFTQn-Fckp6tPZ/preview"
                       allowFullScreen
                       title="Embedded video"
+                      className="rounded-2xl"
                     />
                   </div>
                 </div>
@@ -208,6 +210,7 @@ function Aboutus() {
                       src="https://drive.google.com/file/d/1zsm36p5gPct-rMI3h8Jyys7aBVw9TRDy/preview"
                       allowFullScreen
                       title="Embedded video"
+                      className="rounded-2xl"
                     />
                   </div>
                 </div>
