@@ -85,15 +85,17 @@ function Aboutus() {
                       maxWidth: "100%",
                     }}
                   >
+                    {/* https://drive.google.com/file/d/1_3oK9w9yhd9ul6jaFk8Qq3RgXQceYI5y/preview */}
+
                     <iframe
                       style={{
                         position: "absolute",
-                        top: "10",
+                        top: "0",
                         left: "0",
                         width: "100%",
                         height: "100%",
                       }}
-                      src="https://drive.google.com/file/d/1_3oK9w9yhd9ul6jaFk8Qq3RgXQceYI5y/preview"
+                      src=" https://drive.google.com/file/d/1_3oK9w9yhd9ul6jaFk8Qq3RgXQceYI5y/preview "
                       allowFullScreen
                       title="Embedded video"
                       className="rounded-2xl"
