@@ -3,8 +3,9 @@ import Header from "./components/Header"
 import "../globals.css"
 import { Inter } from "next/font/google"
 import Image from "next/image"
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] })
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
   title: "Shadel",
@@ -27,6 +28,7 @@ export default function UserLayout({
         <main className="min-h-[70vh]">{children}</main>
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
