@@ -60,20 +60,7 @@ export default function Aboutpage() {
           right: "0",
         }}
       />
-      {/* <div className="grid grid-cols-2 space-x-0 ml-[10%] pt-3 justify-center align-middle ">
-        <iframe
-          width={569}
-          height={374}
-          src="https://drive.google.com/file/d/1f686Wl0QOsa2D1-jAYrCO1DvLzmSyXOH/preview" // Assuming "coming.png" is in the public directory
-          className="w-[70%] z-10  ml-[10%] rounded-2xl"
-        />
-        <iframe
-          width={569}
-          height={374}
-          src="https://drive.google.com/file/d/19pkEXvTFvxvNDWp15WlVKYZIXs64col-/preview" // Assuming "coming.png" is in the public directory
-          className="w-[70%] z-10  ml-[10%] rounded-2xl"
-        />
-      </div> */}
+
       <div className="eventsbg"></div>
       <div id="x1" className="  w-full h-full ">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">

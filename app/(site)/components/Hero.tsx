@@ -3,10 +3,23 @@ import { LazyMotion, domAnimation, m } from "framer-motion"
 import Image from "next/image"
 import { useState, useEffect, useContext } from "react"
 import Link from "next/link"
+import Script from "next/script"
 
 function Hero() {
   return (
     <LazyMotion features={domAnimation}>
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-XLESEE5RRC`} // Replace with your GA4 ID
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XLESEE5RRC');
+        `}
+      </Script>
       <div className="hero ">
         <div className="container mx-auto min-h-[76vh] px-4">
           <div className="flex flex-col items-center gap-10 pt-[10%]">
