@@ -2,9 +2,22 @@
 import Image from "next/image"
 import Link from "next/link"
 import { LazyMotion, domAnimation, m } from "framer-motion"
+import Script from "next/script"
 function AllMachines() {
   return (
     <div className="prooo " id="leftxx">
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-XLESEE5RRC`} // Replace with your GA4 ID
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XLESEE5RRC');
+        `}
+      </Script>
       <Image
         width={1080}
         height={365}

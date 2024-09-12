@@ -5,6 +5,7 @@ import DropDown from "./dropDown"
 import { LazyMotion, domAnimation, m } from "framer-motion"
 import Search from "./Search"
 import { useState } from "react"
+import Script from "next/script"
 function Header() {
   const [menuOpen, setMenuOpen] = useState(true)
 
@@ -18,6 +19,18 @@ function Header() {
 
   return (
     <LazyMotion features={domAnimation}>
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-XLESEE5RRC`} // Replace with your GA4 ID
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XLESEE5RRC');
+        `}
+      </Script>
       <nav>
         <div className="fixed top-0 z-50 w-full bg-white shadow-lg">
           <m.header

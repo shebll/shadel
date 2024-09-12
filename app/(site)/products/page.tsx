@@ -7,6 +7,7 @@ import { getProducts } from "@/sanity/sanity-utils"
 import ProductMachineType from "@/types/Product"
 import { useRouter } from "next/router"
 import AllMachines from "../machines/page"
+import Script from "next/script"
 function AllProducts() {
   const [products, setProducts] = useState<ProductMachineType[]>([])
   const [selectedType, setSelectedType] = useState("")
@@ -26,6 +27,18 @@ function AllProducts() {
 
   return (
     <div className="prooo  " id="leftxx">
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-XLESEE5RRC`} // Replace with your GA4 ID
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XLESEE5RRC');
+        `}
+      </Script>
       <Image
         width={1080}
         height={365}
