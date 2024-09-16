@@ -175,7 +175,7 @@ function Aboutus() {
                     the industry's benchmarks for quality, efficiency, and
                     customer focus.
                     <br />
-                    <b style={{ color: "black" }}> SHADEL’s MISION:</b>
+                    <b style={{ color: "black" }}> SHADEL’s MISSION:</b>
                     <br />
                     <b>
                       {" "}

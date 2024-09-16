@@ -15,18 +15,19 @@ function Footer() {
                 <Image
                   src="/ricon.png"
                   alt="Location icon"
-                  width={28}
+                  width={25}
                   height={25}
-                  className="h-10 pt-1 "
+                  className="h-7 w-auto pt-1 "
                 />
                 <b className="hover:text-red-600 cursor-pointer">
-                  Block 156:160, Industrial zone <br />
-                  Sadat city - Egypt
+                  Blocks 156:160,
+                  <br />
+                  Sadat Industrial Zone
                 </b>
               </div>
               <div className="flex ">
                 <b className="hover:text-red-600 cursor-pointer">
-                  Factory 7A,6th Of October <br /> Industrial Zone, Giza
+                  Factory 7A, Six Of October <br /> Industrial Zone
                 </b>
               </div>
             </div>
