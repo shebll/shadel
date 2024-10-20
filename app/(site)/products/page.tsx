@@ -268,9 +268,7 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  src={
-                    "https://drive.google.com/uc?export=view&id=1hx35R8mzAjKXa5i8PK40wajmE0yNlpke"
-                  }
+                  src={"/public/SelfService_carousel.jpg"}
                   alt="image"
                   width={900}
                   height={150}
