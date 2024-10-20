@@ -268,7 +268,7 @@ function AllProducts() {
             >
               <div className="overflow-hidden md:h-[300px]">
                 <Image
-                  src={"/public/SelfService_carousel.jpg"}
+                  src={"/SelfService_carousel.jpg"}
                   alt="image"
                   width={900}
                   height={150}
