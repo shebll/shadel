@@ -1,12 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"); */
+@font-face {
+  font-family: "DINNextLTBold"; /* Choose a custom name for your font */
+  src: url("/fonts/alfont_com_AlFont_com_din-next-lt-w23-bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
 
-*,
 html {
   scroll-behavior: smooth !important;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "DINNextLTBold", sans-serif;
 }
 
 .prss {

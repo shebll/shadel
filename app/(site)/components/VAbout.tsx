@@ -46,12 +46,12 @@ function Aboutus() {
                 transition={{ duration: 1, type: "spring", stiffness: 50 }}
                 className="row flex flex-col pb-10 "
               >
-                <h2 className="section-heading text-gray-300">About Us</h2>
+                <h2 className="section-heading text-black">About Us</h2>
               </m.div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols- gap-6">
                 <m.div variants={images} className=" p-6 rounded shadow">
                   <h2 className="text-2xl font-bold mb-4 ">ABOUT SHADEL:</h2>
-                  <div className="text-black">
+                  <div className="text-black ">
                     <b>
                       {" "}
                       With a rich heritage dating back to 2001, SHADEL

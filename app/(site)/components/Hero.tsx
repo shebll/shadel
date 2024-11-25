@@ -61,7 +61,7 @@ function Hero() {
                   stiffness: 50,
                   delay: 1,
                 }}
-                className="hero-text  sm:pt-10 pt-0 sm:py-3 py-5 text-gray-900 font-bold w-[100%] lg:w-[70%] justify-start sm:justify-end "
+                className="hero-text  sm:pt-10 pt-0 sm:py-3 py-5 text-black font-bold w-[100%] lg:w-[70%] justify-start sm:justify-end "
               >
                 Since 2016, SHADEL has been a leader in sheet metal fabrication,{" "}
                 <br />
