@@ -4,10 +4,7 @@ import React from "react"
 
 function Footer() {
   return (
-    <footer
-      id="footer"
-      className="bg-gradient-to-r from-white to-red-500 text-black pt-6 mt-50 px-4"
-    >
+    <footer id="footer" className="bg-black text-white pt-6 mt-50 px-4">
       <div className="container mx-auto flex flex-col items-center justify-center gap-10 w-full">
         <div className="flex flex-col md:flex-row  justify-between md:items-center w-[90%] md:w-[100%] gap-10 pr-28">
           <br />

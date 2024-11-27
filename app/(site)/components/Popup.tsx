@@ -25,7 +25,7 @@ export function Popup({ productId, toggle, setToggle, setPopupItem }: props) {
     <div
       className={` ${
         toggle ? "fixed" : "hidden"
-      } inset-0 backdrop-blur-md flex  justify-center items-center`}
+      } inset-0 backdrop-blur-md flex  justify-center items-center regular-text`}
     >
       <div className="z-[5]  ">
         <div

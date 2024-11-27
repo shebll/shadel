@@ -14,7 +14,7 @@ function ProductMachinePage({ product }: props) {
     return notFound()
   } else {
     return (
-      <div className="container mx-auto py-20 px-[10px] flex justify-between flex-col gap-20 pt-[200px] ">
+      <div className="container mx-auto py-20 px-[10px] flex justify-between flex-col gap-20 pt-[200px] regular-text ">
         <Image
           width={548}
           height={369}

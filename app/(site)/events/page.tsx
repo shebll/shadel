@@ -39,7 +39,7 @@ const images = {
 
 export default function Aboutpage() {
   return (
-    <div className="">
+    <div className="regular-text">
       <h2 className="section-heading text-gray-300 sm:text-white z-1 pt-28 absolute text-center justify-center ml-[40%] ">
         Events
       </h2>

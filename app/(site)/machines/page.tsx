@@ -36,7 +36,7 @@ function AllMachines() {
       <LazyMotion features={domAnimation}>
         <section
           id="allmachines"
-          className="container mx-auto py-[120px] flex flex-col gap-20 px-4"
+          className="container mx-auto py-[120px] flex flex-col gap-20 px-4 regular-text"
         >
           <m.div
             initial={{ y: -150 }}

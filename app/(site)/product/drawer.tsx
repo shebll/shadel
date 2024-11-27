@@ -16,7 +16,7 @@ export function DrawerPlacement() {
 
   return (
     <React.Fragment>
-      <div className="flex flex-wrap gap-4 right-0 top-[10%] fixed">
+      <div className="flex flex-wrap gap-4 right-0 top-[10%] fixed bold-text">
         {" "}
         {/* Render this div always */}
         <Button

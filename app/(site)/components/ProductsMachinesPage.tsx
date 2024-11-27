@@ -19,9 +19,9 @@ function Products({ items, name }: Props) {
 
   return (
     <>
-      <div className=" flex justify-start items-center flex-col min-h-[70vh]">
+      <div className=" flex justify-start items-center flex-col min-h-[70vh] regular-text">
         <h1
-          className={`text-[20px] md:text-[40px] lg:text-[80px]  font-bold text-center text-gray-300 sm:text-white pt-28`}
+          className={`text-[20px] md:text-[40px] lg:text-[80px]  bold-text text-center text-gray-300 sm:text-white pt-28`}
         >
           {name}
         </h1>
@@ -42,7 +42,7 @@ function Products({ items, name }: Props) {
             </p>
           </div>
         )}
-        <div className=" container mx-auto flex flex-col lg:flex-row justify-center items-stretch gap-8 px-4  flex-wrap">
+        <div className=" container mx-auto flex flex-col lg:flex-row justify-center items-stretch gap-8 px-4  flex-wrap regular-text">
           {items?.map((item) => (
             <div
               key={item._id}

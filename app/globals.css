@@ -9,10 +9,38 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: "DINNextLTArabic";
+  src: url("/fonts/alfont_com_AlFont_com_DINNextLTArabic-Regular-4.ttf")
+    format("truetype");
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "DINNextLTArabic";
+  src: url("/fonts/alfont_com_AlFont_com_din-next-lt-w23-bold.ttf")
+    format("truetype");
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+.bold-text {
+  font-family: "DINNextLTBold", sans-serif; /* Use the bold-specific font */
+}
+
+.regular-text {
+  font-family: "DINNextLTArabic", sans-serif; /* Use the regular font */
+  font-weight: 400; /* Optional, ensures regular weight */
+}
+
+/* For bold-weight DINNextLTArabic font */
+.din-bold {
+  font-family: "DINNextLTBold", sans-serif;
+  font-weight: 700; /* Explicitly select bold variant */
+}
 
 html {
   scroll-behavior: smooth !important;
-  font-family: "DINNextLTBold", sans-serif;
+  font-family: "DINNextLTArabic", sans-serif;
 }
 
 .prss {

@@ -37,7 +37,7 @@ function Header() {
             initial={{ y: -250 }}
             animate={{ y: 0 }}
             transition={{ duration: 1, type: "spring", stiffness: 50 }}
-            className="container flex items-center justify-between py-4 mx-auto z-250"
+            className="container flex items-center justify-between py-4 mx-auto z-250 bold-text"
           >
             <div className="flex ">
               <Link href="/">

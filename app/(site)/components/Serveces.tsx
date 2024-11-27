@@ -41,7 +41,7 @@ function Services() {
     <div className="serv">
       <section
         id="services"
-        className="container mx-auto min-h-screen pt-[70px] "
+        className="container mx-auto min-h-screen pt-[70px] bold-text "
       >
         <LazyMotion features={domAnimation}>
           <m.div
@@ -73,7 +73,7 @@ function Services() {
                     />
                   </div>
                   <h3>{service.name}</h3>
-                  <p>{service.content}</p>
+                  <p className="regular-text">{service.content}</p>
                 </div>
               </m.div>
             ))}

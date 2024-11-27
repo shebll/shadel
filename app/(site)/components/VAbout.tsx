@@ -33,7 +33,7 @@ function Aboutus() {
 
   return (
     <div className="vabout">
-      <section id="Aboutus" className="text-white">
+      <section id="Aboutus" className="text-white regular-text">
         <LazyMotion features={domAnimation}>
           <motion.div variants={variants} initial="hidden" whileInView="show">
             <m.div
@@ -50,9 +50,9 @@ function Aboutus() {
               </m.div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols- gap-6">
                 <m.div variants={images} className=" p-6 rounded shadow">
-                  <h2 className="text-2xl font-bold mb-4 ">ABOUT SHADEL:</h2>
+                  <h2 className="text-2xl bold-text mb-4 ">ABOUT SHADEL:</h2>
                   <div className="text-black ">
-                    <b>
+                    <b className="bold-text">
                       {" "}
                       With a rich heritage dating back to 2001, SHADEL
                       officially established its presence in 2016.
@@ -60,19 +60,20 @@ function Aboutus() {
                     <p>
                       Founded by visionary individuals passionate about
                       exceptional sheet metal fabrication, we've grown into a
-                      leader in the Middle East. <br /> <b> SHADEL</b>{" "}
-                      specialize in crafting top-notch stainless steel products
-                      at competitive prices. Our commitment to quality is
-                      evident in our state-of-the-art, custom-designed machines
-                      that allow us to deliver tailored solutions efficiently
-                      and reliably. By embracing advanced technologies like
-                      laser cutting and welding, SHADEL guarantee unparalleled
-                      results. <br /> At <b> SHADEL</b>, continuous improvement
-                      is paramount. We implement Lean manufacturing principles,
-                      Kaizen, and Six Sigma methodologies to stay ahead of the
-                      curve. Our dedication to innovation, quality, and customer
-                      satisfaction fuels our aspiration to redefine the
-                      standards of sheet metal fabrication.
+                      leader in the Middle East. <br />{" "}
+                      <b className="bold-text"> SHADEL</b> specialize in
+                      crafting top-notch stainless steel products at competitive
+                      prices. Our commitment to quality is evident in our
+                      state-of-the-art, custom-designed machines that allow us
+                      to deliver tailored solutions efficiently and reliably. By
+                      embracing advanced technologies like laser cutting and
+                      welding, SHADEL guarantee unparalleled results. <br /> At{" "}
+                      <b className="bold-text"> SHADEL</b>, continuous
+                      improvement is paramount. We implement Lean manufacturing
+                      principles, Kaizen, and Six Sigma methodologies to stay
+                      ahead of the curve. Our dedication to innovation, quality,
+                      and customer satisfaction fuels our aspiration to redefine
+                      the standards of sheet metal fabrication.
                     </p>
                   </div>
                 </m.div>
@@ -128,14 +129,17 @@ function Aboutus() {
                 </div>
                 <m.div variants={images} className=" p-6 rounded shadow  ">
                   <h2
-                    className="text-2xl font-bold mb-4"
+                    className="text-2xl bold-text mb-4"
                     style={{ color: "black" }}
                   >
                     CORE VALUES:
                   </h2>
                   <p className="text-black  ">
-                    At <b style={{ color: "black" }}>SHADEL</b>,our core values
-                    define who we are and how we operate.
+                    At{" "}
+                    <b style={{ color: "black" }} className="bold-text">
+                      SHADEL
+                    </b>
+                    ,our core values define who we are and how we operate.
                     <br />
                     We prioritize understanding and exceeding our client's
                     needs,
@@ -166,18 +170,24 @@ function Aboutus() {
                   </p>
                 </m.div>
                 <m.div variants={images} className=" p-6 rounded shadow">
-                  <h2 className="text-2xl font-bold mb-4">Mission</h2>
+                  <h2 className="text-2xl bold-text mb-4">Mission</h2>
                   <p className="text-black ">
-                    <b style={{ color: "black" }}> SHADEL’s VISION:</b>
+                    <b style={{ color: "black" }} className="bold-text">
+                      {" "}
+                      SHADEL’s VISION:
+                    </b>
                     <br />
-                    <b> Industry benchmark:</b> Shadel aspires to be the
-                    standard of excellence in sheet metal fabrication, defining
-                    the industry's benchmarks for quality, efficiency, and
-                    customer focus.
+                    <b className="bold-text"> Industry benchmark:</b> Shadel
+                    aspires to be the standard of excellence in sheet metal
+                    fabrication, defining the industry's benchmarks for quality,
+                    efficiency, and customer focus.
                     <br />
-                    <b style={{ color: "black" }}> SHADEL’s MISSION:</b>
+                    <b style={{ color: "black" }} className="bold-text">
+                      {" "}
+                      SHADEL’s MISSION:
+                    </b>
                     <br />
-                    <b>
+                    <b className="bold-text">
                       {" "}
                       At SHADEL, we strive to be the leading choice for our
                       clients by exceeding their expectations every day. We

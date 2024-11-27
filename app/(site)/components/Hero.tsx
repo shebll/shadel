@@ -20,7 +20,7 @@ function Hero() {
           gtag('config', 'G-XLESEE5RRC');
         `}
       </Script>
-      <div className="hero ">
+      <div className="hero bold-text">
         <div className="container mx-auto min-h-[76vh] px-4">
           <div className="flex flex-col items-center gap-10 pt-[10%]">
             <m.div
@@ -70,7 +70,7 @@ function Hero() {
                 ensuring customer satisfaction.
               </m.p>
               <Link href="https://drive.google.com/file/d/1eKxEL6Y1SC_rZ3OT27mTwjjsYl3RFkTH/view?usp=drivesdk">
-                <m.button style={{}} className="mb-2 bhero ">
+                <m.button style={{}} className="mb-2 bhero bold-text ">
                   SHADEL CATALOGUE{" "}
                 </m.button>
               </Link>

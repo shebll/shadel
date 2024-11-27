@@ -32,7 +32,7 @@ module.exports = withMT({
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        dinBold: ["DINNextLTBold", "sans-serif"], // Match the font-family name in @font-face
+        dinBold: ["DINNextLTArabic", "sans-serif"], // Match the font-family name in @font-face
       },
     },
   },
