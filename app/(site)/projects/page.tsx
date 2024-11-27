@@ -38,8 +38,12 @@ const images = {
 export default function Projects() {
   return (
     <div id="projects" className="pt-12 regular-text">
-      <div className=" ">
-        <img src="/bg/x.jpeg" className="w-full z-10 pt-10 sm:pt-0" alt="" />
+      <div className="relative overflow-hidden group">
+        <img
+          src="/bg/x.jpeg"
+          className="w-full z-10 pt-10 sm:pt-0 transition-transform duration-500 ease-in-out group-hover:scale-105"
+          alt="Background"
+        />
       </div>
       <div id="x1" className=" projectsx pt-16  w-full h-full ">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">

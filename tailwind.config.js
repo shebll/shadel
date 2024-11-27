@@ -34,6 +34,9 @@ module.exports = withMT({
       fontFamily: {
         dinBold: ["DINNextLTArabic", "sans-serif"], // Match the font-family name in @font-face
       },
+      animation: {
+        zoom: "zoomIn 0.5s ease-in-out",
+      },
     },
   },
   plugins: [],
