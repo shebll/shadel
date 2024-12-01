@@ -69,7 +69,9 @@ function Hero() {
                 <br /> Our commitment to quality and innovation drives us,
                 ensuring customer satisfaction.
               </m.p>
-              <Link href="https://drive.google.com/file/d/1ntTzGQniFzETshzyk4d4bD8k6Ga1YiPi/preview">
+
+              {/* https://drive.google.com/file/d/1lDpCoqUeh37Oioa1Z6MUH8RLTxfghmBL/view?usp=drive_link */}
+              <Link href="https://drive.google.com/file/d/1lDpCoqUeh37Oioa1Z6MUH8RLTxfghmBL/preview">
                 <m.button style={{}} className="mb-2 bhero bold-text ">
                   SHADEL CATALOGUE{" "}
                 </m.button>
