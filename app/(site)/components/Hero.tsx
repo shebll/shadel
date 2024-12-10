@@ -69,13 +69,18 @@ function Hero() {
                 <br /> Our commitment to quality and innovation drives us,
                 ensuring customer satisfaction.
               </m.p>
-
-              {/* https://drive.google.com/file/d/1lDpCoqUeh37Oioa1Z6MUH8RLTxfghmBL/view?usp=drive_link */}
-              <Link href="https://drive.google.com/file/d/1lDpCoqUeh37Oioa1Z6MUH8RLTxfghmBL/preview">
-                <m.button style={{}} className="mb-2 bhero bold-text ">
-                  SHADEL CATALOGUE{" "}
-                </m.button>
-              </Link>
+              <div className="">
+                <Link href="https://drive.google.com/file/d/1lDpCoqUeh37Oioa1Z6MUH8RLTxfghmBL/preview">
+                  <m.button className="mb-2 bhero bold-text ">
+                    SHADEL CATALOGUE
+                  </m.button>
+                </Link>
+                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf424HkuupmgACtShL-oMXCaNxpa3MM6LN2himkjlY5lvcpKg/viewform?usp=header">
+                  <m.button className="mb-2 bhero bold-text ">
+                    Please Fill The Form
+                  </m.button>
+                </Link>
+              </div>
             </m.div>
           </div>
         </div>
