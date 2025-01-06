@@ -32,7 +32,7 @@ export function DrawerPlacement() {
         placement="right"
         open={openRight}
         onClose={closeDrawerRight}
-        className="p-4 bg-black"
+        className="p-4  bg-black"
         placeholder={""}
       >
         <div className="mb-6 flex items-center justify-between">
@@ -71,54 +71,62 @@ export function DrawerPlacement() {
             </svg>
           </IconButton>
         </div>
-        <div color="gray" className="mb-8 pr-4 font-normal">
+        <div color="gray" className="mb-8 pr-4 font-normal ">
           <div className="leftside">
             <ul>
               <li>
                 <Link href="/product?type=utensils">
-                  <p className="text-white text-xl"> Kitchen Utensils</p>
+                  <p className="text-white text-xl h-5 "> Kitchen Utensils</p>
                 </Link>
               </li>
               <li>
                 <Link href="/product?type=hot">
-                  <p className="text-white text-xl">Heating</p>
+                  <p className="text-white text-xl h-5">Heating</p>
                 </Link>
               </li>
               <li>
                 <Link href="/product?type=cold">
-                  <p className="text-white text-xl"> Refrigeration</p>
+                  <p className="text-white text-xl h-5"> Refrigeration</p>
                 </Link>
               </li>
               <li>
                 <Link href="/product?type=laundry">
-                  <p className="text-white text-xl">Laundry</p>
+                  <p className="text-white text-xl h-5">Laundry</p>
                 </Link>
               </li>
               <li>
                 <Link href="/product?type=others">
-                  <p className="text-white text-xl">Medical</p>
+                  <p className="text-white text-xl h-5">Medical</p>
                 </Link>
               </li>
               <li>
                 <Link href="/product?type=castle">
                   {" "}
-                  <p className="text-white text-xl">Home Appliances</p>
+                  <p className="text-white text-xl h-5">Home Appliances</p>
                 </Link>
               </li>
               <li>
                 <Link href="/product?type=boiler">
-                  <p className="text-white text-xl"> Fire Extinguisher</p>
+                  <p className="text-white text-xl h-5"> Fire Extinguisher</p>
                 </Link>
               </li>
 
               <li>
                 <Link href="/product?type=burner">
-                  <p className="text-white text-xl"> Boilers & Burners</p>
+                  <p className="text-white text-xl h-5"> Boilers & Burners</p>
                 </Link>
               </li>
+              {/* <li>
+                <Link href="/product?type=burner">
+                  <p className="text-white text-xl h-5">
+                    {" "}
+                    Raw Material Processing
+                  </p>
+                </Link>
+              </li> */}
               <li>
                 <Link href="/product?type=coffe">
-                  <p className="text-white text-xl">Others</p>
+                  <p className="text-white text-xl h-5">Others</p>
                 </Link>
               </li>
             </ul>

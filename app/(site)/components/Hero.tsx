@@ -61,7 +61,7 @@ function Hero() {
                   stiffness: 50,
                   delay: 1,
                 }}
-                className="hero-text  sm:pt-10 pt-0 sm:py-3 py-5 text-black font-bold w-[100%] lg:w-[70%] justify-start sm:justify-end "
+                className="hero-text  sm:pt-10 pt-0 sm:py-3 py-5 text-black w-[100%] lg:w-[70%] justify-start sm:justify-end bold-text "
               >
                 Since 2016, SHADEL has been a leader in sheet metal fabrication,{" "}
                 <br />
@@ -76,11 +76,11 @@ function Hero() {
                   </m.button>
                   {/* https://forms.gle/yupjcejBGYtZaNLL7 */}
                 </Link>
-                <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf424HkuupmgACtShL-oMXCaNxpa3MM6LN2himkjlY5lvcpKg/viewform?usp=header">
+                {/* <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf424HkuupmgACtShL-oMXCaNxpa3MM6LN2himkjlY5lvcpKg/viewform?usp=header">
                   <m.button className="mb-2 bhero bold-text ">
                     Please Fill The Form
                   </m.button>
-                </Link>
+                </Link> */}
               </div>
             </m.div>
           </div>

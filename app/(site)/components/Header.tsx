@@ -138,6 +138,33 @@ function Header() {
                               Fire Extinguisher
                             </Link>
                           </li>
+                          <li className="text-sm text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/product?type=burner"}
+                              className="block px-4 py-2"
+                            >
+                              Boilers And Burners
+                            </Link>
+                          </li>
+                          <li className="text-sm text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/product?type=raw"}
+                              className="block px-4 py-2"
+                            >
+                              Raw Material Processing
+                            </Link>
+                          </li>
+                          <li className="text-sm text-black duration-100 hover:pl-2 hover:bg-gray-100 hover:text-red-600">
+                            <Link
+                              onClick={toggleMenu}
+                              href={"/product?type=mesh"}
+                              className="block px-4 py-2"
+                            >
+                              Heavy Steel
+                            </Link>
+                          </li>
                         </ul>
                       </div>
                     )}

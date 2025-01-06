@@ -53,6 +53,8 @@ const Product = {
           { title: "burner", value: "burner" },
           { title: "utensils", value: "utensils" },
           { title: "coffe", value: "coffe" },
+          { title: "raw", value: "raw" },
+          { title: "mesh", value: "mesh" },
         ],
       },
     },

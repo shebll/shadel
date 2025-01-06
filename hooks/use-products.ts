@@ -16,6 +16,8 @@ export type TQuery =
   | "burner"
   | "utensils"
   | "coffe"
+  | "raw"
+  | "Mesh"
 
 export default function useProducts(typeQuery: string) {
   const [products, setProducts] = useState<ProductMachineType[]>([])

@@ -62,6 +62,123 @@ export default function Aboutpage() {
       />
 
       <div className="eventsbg"></div>
+      <div id="x0" className="  w-full h-full ">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">
+          <div>
+            <div className="flex items-center " style={{ gap: "5%" }}>
+              <h2 className="text-lg font-bold tracking-tight text-black sm:text-4xl">
+                MACTECH 2024
+              </h2>
+              <img
+                src="/MACTECH.png"
+                alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+                width={200}
+              ></img>
+            </div>
+            <p className="mt-4 text-black">
+              Step into the world of precision metalwork at Shadel Industry’s
+              cutting-edge facility, located within the prestigious Cairo
+              International Convention Exhibition. Delve into a realm where
+              advanced techniques and engineering excellence come together to
+              create flawless sheet metal and press metal solutions. Transform
+              your outdoor spaces with our exceptional metal offerings, designed
+              to fuse innovation with sophistication. Choose quality, choose
+              Shadel Industry.
+            </p>
+
+            <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+              <div className="border-t border-gray-200 pt-4">
+                <dt className="font-medium text-black">Highlights:</dt>
+                <dd className="mt-2 text-sm text-black">
+                  <li>
+                    <b> Pioneering Designs:</b> Discover the latest innovations
+                    and trends in metal craftsmanship, now enhanced with
+                    galvanized steel.
+                  </li>
+                  <li>
+                    <b> Superior Quality:</b> Experience our dedication to
+                    top-tier materials and expert workmanship, backed by our
+                    mechanical design team.
+                  </li>
+                </dd>
+              </div>
+
+              <div className="border-t border-gray-200 pt-4">
+                <dt className="font-medium text-black">Visit Us:</dt>
+                <dd className="mt-2 text-sm text-black">
+                  Join us at MACTECH to experience the beauty and functionality
+                  of our metal solutions. Our team will be on hand to guide you
+                  through our innovative products.
+                </dd>
+              </div>
+            </dl>
+          </div>
+          <motion.div
+            variants={variants}
+            initial="hidden"
+            whileInView="show"
+            className="grid grid-cols-2 grid-rows-2 gap-2 sm:gap-6 lg:gap-8 pt-10"
+          >
+            <motion.img
+              src="/xv/Selected/2.jpg"
+              alt="Side of walnut card tray with card groove and recessed card area."
+              className="rounded-lg bg-gray-100 "
+              variants={images}
+            />
+            <motion.img
+              src="/xv/Selected/4.jpg"
+              alt="Walnut card tray filled with cards and card angled in dedicated groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+            <motion.img
+              src="/xv/Selected/5.jpg"
+              alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+              className="rounded-lg bg-gray-100 "
+              variants={images}
+            />
+            <motion.img
+              src="/xv/Selected/6.jpg"
+              alt="Top down view of walnut card tray with embedded magnets and card groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+            <motion.img
+              src="/xv/Selected/3.jpg"
+              alt="Side of walnut card tray with card groove and recessed card area."
+              className="rounded-lg bg-gray-100 "
+              variants={images}
+            />
+            <motion.img
+              src="/xv/Selected/1.jpg"
+              alt="Walnut card tray filled with cards and card angled in dedicated groove."
+              className="rounded-lg bg-gray-100"
+              variants={images}
+            />
+
+            {/* <motion.video
+              autoPlay
+              loop
+              muted
+              className="rounded-lg bg-gray-100 "
+              variants={images}
+            >
+              <source src="/video-2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </motion.video>
+            <motion.video
+              autoPlay
+              loop
+              muted
+              className="rounded-lg bg-gray-100 "
+              variants={images}
+            >
+              <source src="/video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </motion.video> */}
+          </motion.div>
+        </div>
+      </div>
       <div id="x1" className="  w-full h-full ">
         <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-y-16 gap-x-8 py-24 sm:py-20 lg:max-w-7xl lg:grid-cols-2 px-10 lg:px-5 sm:px-28 ">
           <div>
@@ -167,7 +284,7 @@ export default function Aboutpage() {
                 MACTECH 2024
               </h2>
               <img
-                src="/MACTECH.png"
+                src="/xv/op.jpeg"
                 alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
                 width={200}
               ></img>

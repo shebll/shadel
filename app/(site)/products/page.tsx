@@ -367,7 +367,76 @@ function AllProducts() {
                 </Link>
               </div>
             </m.div>
-
+            <m.div
+              initial={{ y: 250 }}
+              whileInView={{ y: 0 }}
+              transition={{
+                duration: 1,
+                type: "spring",
+                stiffness: 50,
+                delay: 0.15,
+              }}
+              className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
+            >
+              <div className="overflow-hidden md:h-[300px]">
+                <Image
+                  src={"/xv/bg.png"}
+                  alt="image"
+                  width={900}
+                  height={150}
+                  className=""
+                />
+              </div>
+              <div className="flex flex-col gap-6 px-6 pb-10 py-2">
+                <h2 className="text-2xl font-bold">Raw Material Processing</h2>
+                <p>
+                  Experience precision sheet metal processing, transforming raw
+                  metal into thin,calibrated sheets for high-quality
+                  fabrication.
+                </p>
+                <Link
+                  href={"/product?type=raw"}
+                  className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
+                >
+                  See More
+                </Link>
+              </div>
+            </m.div>
+            <m.div
+              initial={{ y: 250 }}
+              whileInView={{ y: 0 }}
+              transition={{
+                duration: 1,
+                type: "spring",
+                stiffness: 50,
+                delay: 0.15,
+              }}
+              className="flex flex-col rounded-2xl shadow-2xl overflow-hidden bg-white"
+            >
+              <div className="overflow-hidden md:h-[300px]">
+                <Image
+                  src={"/xv/xd.png"}
+                  alt="image"
+                  width={900}
+                  height={150}
+                  className=""
+                />
+              </div>
+              <div className="flex flex-col gap-6 px-6 pb-10 py-2">
+                <h2 className="text-2xl font-bold"> Heavy Steel</h2>
+                <p>
+                  Mesh fabrication is the manufacturing process of creating wire
+                  mesh, which is a grid-like structure formed by intersecting
+                  metal wires
+                </p>
+                <Link
+                  href={"/product?type=mesh"}
+                  className="bg-red-600 w-full rounded-xl text-white font-bold text-center py-4 hover:bg-gray-500 transition-all"
+                >
+                  See More
+                </Link>
+              </div>
+            </m.div>
             <m.div
               initial={{ y: 250 }}
               whileInView={{ y: 0 }}

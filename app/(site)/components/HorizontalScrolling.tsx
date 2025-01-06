@@ -41,6 +41,14 @@ function HorizontalScrolling() {
             </div>
             <div className="slide">
               <Image
+                src="/xv/xv.png"
+                height={90}
+                width={90}
+                alt="brand-"
+              ></Image>
+            </div>
+            <div className="slide">
+              <Image
                 src={
                   "https://drive.google.com/uc?export=view&id=1iQ2zC1U_XyZ61Mce8j97CXErDwOwFmh_"
                 }
@@ -217,6 +225,14 @@ function HorizontalScrolling() {
                 src={
                   "https://drive.google.com/uc?export=view&id=1NnUC4Pop7erGt23g5vIRu5QuqQvIQvbV"
                 }
+                height={90}
+                width={90}
+                alt="brand-"
+              ></Image>
+            </div>
+            <div className="slide">
+              <Image
+                src={"/xv/xv.png"}
                 height={90}
                 width={90}
                 alt="brand-"
